@@ -34,7 +34,11 @@
                 var data = d3.csv('data/hist.csv', function(data){
                 
                 // And then was the data...
-                
+                data.forEach(function(d){ 
+                    d.x = +d.x;
+                    d.y = +d.y;
+                });
+                    
                 var sportWeight = d3.nest()
                     .key(function(d){
                         return d.Sport;
@@ -69,7 +73,7 @@
                 // FIXIT!
                 mapy = d3.scale.linear()
                     //.domain([0,maxCount])
-                    .domain([0,500])
+                    .domain([0,1500])
                     .range([0,h])
                 
                 var stack = d3.layout.stack()
@@ -101,6 +105,9 @@
 
                 // draw the paths
                 var graph = svg.selectAll('path')
+                    .append('g')
+                    .attr('class', 'stack')
+                    //.attr('transform',)
                     .data(weightStack)
                     .enter()
                     .append('path')
