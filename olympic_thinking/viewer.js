@@ -26,7 +26,7 @@ function start() {
         var nested_data = nesting(raw_data);
         console.log(nested_data);
         
-        var age_range = [10, 80];
+        var age_range = [10, 70];
         var sport_names = d3.nest()
             .key(function (d) { return d.Sport; })
             .entries(raw_data);
@@ -68,6 +68,7 @@ function start() {
             // Put 0 on the bottom.
             .range([INNER_HEIGHT, 0]);
         var axis_y = d3.svg.axis()
+            .ticks(7)
             .scale(scale_y)
             .orient('left');
         
@@ -84,7 +85,7 @@ function start() {
                 return 'translate(' + scale_x(i) + ', 0)';
             });
         
-        var ages = sports.selectAll('g.cluster')
+        var age_groups = sports.selectAll('g.cluster')
             .data(function(d){
                  return d.values;
             })
@@ -93,13 +94,31 @@ function start() {
             .attr('class', 'cluster')
             .attr('transform', function (d, i) {
                 return 'translate(0, ' + scale_y(d.key) + ')';
+            });
+
+        var genders = age_groups.selectAll('g.gender')
+            .data(function (d) {
+                return d.values;
             })
-            .append('rect')
-            .attr('x', -5)
-            .attr('y', -5)
-            .attr('width', 10)
-            .attr('height', 10)
-        ;
+            .enter()
+            .append('g')
+            .attr('class', 'g.gender')
+            .attr('transform', function (d, i) {
+                var dx = (d.key == 'F') ? -10 : 10;
+                return 'translate(' + dx + ', 0)';
+            });
+                    
+        var people = genders.selectAll('circle.person')
+            .data(function (d) {
+                console.log(d.values.length);
+                return d.values;
+            })
+            .enter()
+            .append('circle')
+            .attr('class', 'person')
+            .attr('r', 1)
+            .attr('cx', 0)
+            .attr('cy', function (d, i) { return i * 2; });
     });
 };
 
