@@ -1,4 +1,16 @@
-
+function nesting (data){
+    var newdata = d3.nest()
+        .key(function(d) { return d.Sport; })
+        .sortKeys(d3.ascending)
+        .key(function(d) { 
+            return 10*Math.floor(d.Age/10); 
+        })
+        .sortKeys(d3.ascending)
+        .key(function(d) { return d.Sex; })
+        .entries(data);
+    return newdata;
+}
+           
 function start() {
     
     var CHART_X = 50;
@@ -9,11 +21,15 @@ function start() {
     
     var svg = d3.select('svg');
 
-    d3.csv('olympics_2012.csv', function (data) {
+    d3.csv('olympics_2012.csv', function (raw_data) {
+        
+        var nested_data = nesting(raw_data);
+        console.log(nested_data);
+        
         var age_range = [10, 100];
         var sport_names = d3.nest()
             .key(function (d) { return d.Sport; })
-            .entries(data);
+            .entries(raw_data);
         
         var chart = svg.append('g')
             .attr('class', 'chart')
@@ -22,7 +38,7 @@ function start() {
 
         // axis X
         var scale_x = d3.scale.linear()
-            .domain([0, sport_names.length])
+            .domain([0, sport_names.length - 1])
             .range([0, INNER_WIDTH]);
         var axis_x = d3.svg.axis()
             .scale(scale_x)
@@ -32,7 +48,7 @@ function start() {
             .tickFormat('');
         var axis_x_g = chart.append('g')
             .attr('class', 'axis_x')
-            .attr('transform', 'translate(0, ' + INNER_HEIGHT + ')');
+            .attr('transform', 'translate(0, ' + (INNER_HEIGHT + AXIS_MARGIN) + ')');
         axis_x_g.call(axis_x);
         axis_x_g.selectAll('text.sport')
             .data(sport_names)
@@ -40,7 +56,7 @@ function start() {
             .append('text')
             .attr('text-anchor', 'end')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i + 0.5) + ',20),rotate(-45)'
+                return 'translate(' + scale_x(i + 0.3) + ',20),rotate(-45)'
             })
             .attr('class', 'sport')
             .text(function (d, i) { return d.key; })
@@ -57,6 +73,7 @@ function start() {
         
         chart.append('g')
             .attr('class', 'axis_y')
+            .attr('transform', 'translate(' + (-AXIS_MARGIN) + ',0)')
             .call(axis_y);
     });
 };
