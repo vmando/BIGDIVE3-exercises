@@ -37,7 +37,7 @@ function start() {
             .append('text')
             .attr('text-anchor', 'end')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i) + ',20),rotate(-90)'
+                return 'translate(' + scale_x(i + 0.5) + ',20),rotate(-45)'
             })
             .attr('class', 'sport')
             .text(function (d, i) { return d.key; })
