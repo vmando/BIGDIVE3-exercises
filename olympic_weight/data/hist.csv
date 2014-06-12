@@ -1,0 +1,1851 @@
+"Sport","x","y"
+"Archery",2.55102040816327,0
+"Archery",7.6530612244898,0
+"Archery",12.7551020408163,0
+"Archery",17.8571428571429,0
+"Archery",22.9591836734694,0
+"Archery",28.0612244897959,0
+"Archery",33.1632653061224,0
+"Archery",38.265306122449,0
+"Archery",43.3673469387755,0
+"Archery",48.469387755102,4
+"Archery",53.5714285714286,12
+"Archery",58.6734693877551,11
+"Archery",63.7755102040816,19
+"Archery",68.8775510204082,15
+"Archery",73.9795918367347,18
+"Archery",79.0816326530612,10
+"Archery",84.1836734693878,9
+"Archery",89.2857142857143,4
+"Archery",94.3877551020408,4
+"Archery",99.4897959183673,6
+"Archery",104.591836734694,0
+"Archery",109.69387755102,1
+"Archery",114.795918367347,1
+"Archery",119.897959183673,0
+"Archery",125,0
+"Archery",130.102040816327,0
+"Archery",135.204081632653,0
+"Archery",140.30612244898,0
+"Archery",145.408163265306,0
+"Archery",150.510204081633,0
+"Archery",155.612244897959,0
+"Archery",160.714285714286,0
+"Archery",165.816326530612,0
+"Archery",170.918367346939,0
+"Archery",176.020408163265,0
+"Archery",181.122448979592,0
+"Archery",186.224489795918,0
+"Archery",191.326530612245,0
+"Archery",196.428571428571,0
+"Archery",201.530612244898,0
+"Archery",206.632653061224,0
+"Archery",211.734693877551,0
+"Archery",216.836734693878,0
+"Archery",221.938775510204,0
+"Archery",227.040816326531,0
+"Archery",232.142857142857,0
+"Archery",237.244897959184,0
+"Archery",242.34693877551,0
+"Archery",247.448979591837,0
+"Archery",2.55102040816327,0
+"Athletics",2.55102040816327,0
+"Athletics",7.6530612244898,0
+"Athletics",12.7551020408163,0
+"Athletics",17.8571428571429,0
+"Athletics",22.9591836734694,0
+"Athletics",28.0612244897959,0
+"Athletics",33.1632653061224,0
+"Athletics",38.265306122449,3
+"Athletics",43.3673469387755,49
+"Athletics",48.469387755102,154
+"Athletics",53.5714285714286,248
+"Athletics",58.6734693877551,337
+"Athletics",63.7755102040816,262
+"Athletics",68.8775510204082,188
+"Athletics",73.9795918367347,161
+"Athletics",79.0816326530612,162
+"Athletics",84.1836734693878,104
+"Athletics",89.2857142857143,55
+"Athletics",94.3877551020408,47
+"Athletics",99.4897959183673,21
+"Athletics",104.591836734694,11
+"Athletics",109.69387755102,19
+"Athletics",114.795918367347,22
+"Athletics",119.897959183673,21
+"Athletics",125,15
+"Athletics",130.102040816327,14
+"Athletics",135.204081632653,9
+"Athletics",140.30612244898,4
+"Athletics",145.408163265306,3
+"Athletics",150.510204081633,1
+"Athletics",155.612244897959,2
+"Athletics",160.714285714286,2
+"Athletics",165.816326530612,0
+"Athletics",170.918367346939,0
+"Athletics",176.020408163265,0
+"Athletics",181.122448979592,0
+"Athletics",186.224489795918,0
+"Athletics",191.326530612245,0
+"Athletics",196.428571428571,0
+"Athletics",201.530612244898,0
+"Athletics",206.632653061224,0
+"Athletics",211.734693877551,0
+"Athletics",216.836734693878,0
+"Athletics",221.938775510204,0
+"Athletics",227.040816326531,0
+"Athletics",232.142857142857,0
+"Athletics",237.244897959184,0
+"Athletics",242.34693877551,0
+"Athletics",247.448979591837,0
+"Athletics",2.55102040816327,0
+"Athletics, Triathlon",2.55102040816327,0
+"Athletics, Triathlon",7.6530612244898,0
+"Athletics, Triathlon",12.7551020408163,0
+"Athletics, Triathlon",17.8571428571429,0
+"Athletics, Triathlon",22.9591836734694,0
+"Athletics, Triathlon",28.0612244897959,0
+"Athletics, Triathlon",33.1632653061224,0
+"Athletics, Triathlon",38.265306122449,0
+"Athletics, Triathlon",43.3673469387755,0
+"Athletics, Triathlon",48.469387755102,0
+"Athletics, Triathlon",53.5714285714286,0
+"Athletics, Triathlon",58.6734693877551,1
+"Athletics, Triathlon",63.7755102040816,0
+"Athletics, Triathlon",68.8775510204082,0
+"Athletics, Triathlon",73.9795918367347,0
+"Athletics, Triathlon",79.0816326530612,0
+"Athletics, Triathlon",84.1836734693878,0
+"Athletics, Triathlon",89.2857142857143,0
+"Athletics, Triathlon",94.3877551020408,0
+"Athletics, Triathlon",99.4897959183673,0
+"Athletics, Triathlon",104.591836734694,0
+"Athletics, Triathlon",109.69387755102,0
+"Athletics, Triathlon",114.795918367347,0
+"Athletics, Triathlon",119.897959183673,0
+"Athletics, Triathlon",125,0
+"Athletics, Triathlon",130.102040816327,0
+"Athletics, Triathlon",135.204081632653,0
+"Athletics, Triathlon",140.30612244898,0
+"Athletics, Triathlon",145.408163265306,0
+"Athletics, Triathlon",150.510204081633,0
+"Athletics, Triathlon",155.612244897959,0
+"Athletics, Triathlon",160.714285714286,0
+"Athletics, Triathlon",165.816326530612,0
+"Athletics, Triathlon",170.918367346939,0
+"Athletics, Triathlon",176.020408163265,0
+"Athletics, Triathlon",181.122448979592,0
+"Athletics, Triathlon",186.224489795918,0
+"Athletics, Triathlon",191.326530612245,0
+"Athletics, Triathlon",196.428571428571,0
+"Athletics, Triathlon",201.530612244898,0
+"Athletics, Triathlon",206.632653061224,0
+"Athletics, Triathlon",211.734693877551,0
+"Athletics, Triathlon",216.836734693878,0
+"Athletics, Triathlon",221.938775510204,0
+"Athletics, Triathlon",227.040816326531,0
+"Athletics, Triathlon",232.142857142857,0
+"Athletics, Triathlon",237.244897959184,0
+"Athletics, Triathlon",242.34693877551,0
+"Athletics, Triathlon",247.448979591837,0
+"Athletics, Triathlon",2.55102040816327,0
+"Badminton",2.55102040816327,0
+"Badminton",7.6530612244898,0
+"Badminton",12.7551020408163,0
+"Badminton",17.8571428571429,0
+"Badminton",22.9591836734694,0
+"Badminton",28.0612244897959,0
+"Badminton",33.1632653061224,0
+"Badminton",38.265306122449,0
+"Badminton",43.3673469387755,0
+"Badminton",48.469387755102,6
+"Badminton",53.5714285714286,14
+"Badminton",58.6734693877551,34
+"Badminton",63.7755102040816,32
+"Badminton",68.8775510204082,22
+"Badminton",73.9795918367347,32
+"Badminton",79.0816326530612,12
+"Badminton",84.1836734693878,3
+"Badminton",89.2857142857143,4
+"Badminton",94.3877551020408,1
+"Badminton",99.4897959183673,0
+"Badminton",104.591836734694,0
+"Badminton",109.69387755102,0
+"Badminton",114.795918367347,0
+"Badminton",119.897959183673,0
+"Badminton",125,0
+"Badminton",130.102040816327,0
+"Badminton",135.204081632653,0
+"Badminton",140.30612244898,0
+"Badminton",145.408163265306,0
+"Badminton",150.510204081633,0
+"Badminton",155.612244897959,0
+"Badminton",160.714285714286,0
+"Badminton",165.816326530612,0
+"Badminton",170.918367346939,0
+"Badminton",176.020408163265,0
+"Badminton",181.122448979592,0
+"Badminton",186.224489795918,0
+"Badminton",191.326530612245,0
+"Badminton",196.428571428571,0
+"Badminton",201.530612244898,0
+"Badminton",206.632653061224,0
+"Badminton",211.734693877551,0
+"Badminton",216.836734693878,0
+"Badminton",221.938775510204,0
+"Badminton",227.040816326531,0
+"Badminton",232.142857142857,0
+"Badminton",237.244897959184,0
+"Badminton",242.34693877551,0
+"Badminton",247.448979591837,0
+"Badminton",2.55102040816327,0
+"Basketball",2.55102040816327,0
+"Basketball",7.6530612244898,0
+"Basketball",12.7551020408163,0
+"Basketball",17.8571428571429,0
+"Basketball",22.9591836734694,0
+"Basketball",28.0612244897959,0
+"Basketball",33.1632653061224,0
+"Basketball",38.265306122449,0
+"Basketball",43.3673469387755,0
+"Basketball",48.469387755102,0
+"Basketball",53.5714285714286,1
+"Basketball",58.6734693877551,7
+"Basketball",63.7755102040816,19
+"Basketball",68.8775510204082,19
+"Basketball",73.9795918367347,22
+"Basketball",79.0816326530612,29
+"Basketball",84.1836734693878,42
+"Basketball",89.2857142857143,28
+"Basketball",94.3877551020408,20
+"Basketball",99.4897959183673,22
+"Basketball",104.591836734694,15
+"Basketball",109.69387755102,15
+"Basketball",114.795918367347,13
+"Basketball",119.897959183673,3
+"Basketball",125,2
+"Basketball",130.102040816327,1
+"Basketball",135.204081632653,0
+"Basketball",140.30612244898,0
+"Basketball",145.408163265306,0
+"Basketball",150.510204081633,0
+"Basketball",155.612244897959,0
+"Basketball",160.714285714286,0
+"Basketball",165.816326530612,0
+"Basketball",170.918367346939,0
+"Basketball",176.020408163265,0
+"Basketball",181.122448979592,0
+"Basketball",186.224489795918,0
+"Basketball",191.326530612245,0
+"Basketball",196.428571428571,0
+"Basketball",201.530612244898,0
+"Basketball",206.632653061224,0
+"Basketball",211.734693877551,0
+"Basketball",216.836734693878,0
+"Basketball",221.938775510204,0
+"Basketball",227.040816326531,0
+"Basketball",232.142857142857,0
+"Basketball",237.244897959184,0
+"Basketball",242.34693877551,0
+"Basketball",247.448979591837,0
+"Basketball",2.55102040816327,0
+"Beach Volleyball",2.55102040816327,0
+"Beach Volleyball",7.6530612244898,0
+"Beach Volleyball",12.7551020408163,0
+"Beach Volleyball",17.8571428571429,0
+"Beach Volleyball",22.9591836734694,0
+"Beach Volleyball",28.0612244897959,0
+"Beach Volleyball",33.1632653061224,0
+"Beach Volleyball",38.265306122449,0
+"Beach Volleyball",43.3673469387755,0
+"Beach Volleyball",48.469387755102,0
+"Beach Volleyball",53.5714285714286,0
+"Beach Volleyball",58.6734693877551,3
+"Beach Volleyball",63.7755102040816,11
+"Beach Volleyball",68.8775510204082,18
+"Beach Volleyball",73.9795918367347,13
+"Beach Volleyball",79.0816326530612,5
+"Beach Volleyball",84.1836734693878,6
+"Beach Volleyball",89.2857142857143,15
+"Beach Volleyball",94.3877551020408,14
+"Beach Volleyball",99.4897959183673,5
+"Beach Volleyball",104.591836734694,2
+"Beach Volleyball",109.69387755102,1
+"Beach Volleyball",114.795918367347,0
+"Beach Volleyball",119.897959183673,0
+"Beach Volleyball",125,0
+"Beach Volleyball",130.102040816327,0
+"Beach Volleyball",135.204081632653,0
+"Beach Volleyball",140.30612244898,0
+"Beach Volleyball",145.408163265306,0
+"Beach Volleyball",150.510204081633,0
+"Beach Volleyball",155.612244897959,0
+"Beach Volleyball",160.714285714286,0
+"Beach Volleyball",165.816326530612,0
+"Beach Volleyball",170.918367346939,0
+"Beach Volleyball",176.020408163265,0
+"Beach Volleyball",181.122448979592,0
+"Beach Volleyball",186.224489795918,0
+"Beach Volleyball",191.326530612245,0
+"Beach Volleyball",196.428571428571,0
+"Beach Volleyball",201.530612244898,0
+"Beach Volleyball",206.632653061224,0
+"Beach Volleyball",211.734693877551,0
+"Beach Volleyball",216.836734693878,0
+"Beach Volleyball",221.938775510204,0
+"Beach Volleyball",227.040816326531,0
+"Beach Volleyball",232.142857142857,0
+"Beach Volleyball",237.244897959184,0
+"Beach Volleyball",242.34693877551,0
+"Beach Volleyball",247.448979591837,0
+"Beach Volleyball",2.55102040816327,0
+"Canoe Slalom",2.55102040816327,0
+"Canoe Slalom",7.6530612244898,0
+"Canoe Slalom",12.7551020408163,0
+"Canoe Slalom",17.8571428571429,0
+"Canoe Slalom",22.9591836734694,0
+"Canoe Slalom",28.0612244897959,0
+"Canoe Slalom",33.1632653061224,0
+"Canoe Slalom",38.265306122449,0
+"Canoe Slalom",43.3673469387755,0
+"Canoe Slalom",48.469387755102,0
+"Canoe Slalom",53.5714285714286,6
+"Canoe Slalom",58.6734693877551,6
+"Canoe Slalom",63.7755102040816,16
+"Canoe Slalom",68.8775510204082,12
+"Canoe Slalom",73.9795918367347,22
+"Canoe Slalom",79.0816326530612,13
+"Canoe Slalom",84.1836734693878,3
+"Canoe Slalom",89.2857142857143,2
+"Canoe Slalom",94.3877551020408,0
+"Canoe Slalom",99.4897959183673,0
+"Canoe Slalom",104.591836734694,0
+"Canoe Slalom",109.69387755102,0
+"Canoe Slalom",114.795918367347,0
+"Canoe Slalom",119.897959183673,0
+"Canoe Slalom",125,0
+"Canoe Slalom",130.102040816327,0
+"Canoe Slalom",135.204081632653,0
+"Canoe Slalom",140.30612244898,0
+"Canoe Slalom",145.408163265306,0
+"Canoe Slalom",150.510204081633,0
+"Canoe Slalom",155.612244897959,0
+"Canoe Slalom",160.714285714286,0
+"Canoe Slalom",165.816326530612,0
+"Canoe Slalom",170.918367346939,0
+"Canoe Slalom",176.020408163265,0
+"Canoe Slalom",181.122448979592,0
+"Canoe Slalom",186.224489795918,0
+"Canoe Slalom",191.326530612245,0
+"Canoe Slalom",196.428571428571,0
+"Canoe Slalom",201.530612244898,0
+"Canoe Slalom",206.632653061224,0
+"Canoe Slalom",211.734693877551,0
+"Canoe Slalom",216.836734693878,0
+"Canoe Slalom",221.938775510204,0
+"Canoe Slalom",227.040816326531,0
+"Canoe Slalom",232.142857142857,0
+"Canoe Slalom",237.244897959184,0
+"Canoe Slalom",242.34693877551,0
+"Canoe Slalom",247.448979591837,0
+"Canoe Slalom",2.55102040816327,0
+"Canoe Sprint",2.55102040816327,0
+"Canoe Sprint",7.6530612244898,0
+"Canoe Sprint",12.7551020408163,0
+"Canoe Sprint",17.8571428571429,0
+"Canoe Sprint",22.9591836734694,0
+"Canoe Sprint",28.0612244897959,0
+"Canoe Sprint",33.1632653061224,0
+"Canoe Sprint",38.265306122449,0
+"Canoe Sprint",43.3673469387755,0
+"Canoe Sprint",48.469387755102,0
+"Canoe Sprint",53.5714285714286,2
+"Canoe Sprint",58.6734693877551,11
+"Canoe Sprint",63.7755102040816,31
+"Canoe Sprint",68.8775510204082,31
+"Canoe Sprint",73.9795918367347,27
+"Canoe Sprint",79.0816326530612,20
+"Canoe Sprint",84.1836734693878,46
+"Canoe Sprint",89.2857142857143,31
+"Canoe Sprint",94.3877551020408,19
+"Canoe Sprint",99.4897959183673,6
+"Canoe Sprint",104.591836734694,0
+"Canoe Sprint",109.69387755102,2
+"Canoe Sprint",114.795918367347,0
+"Canoe Sprint",119.897959183673,0
+"Canoe Sprint",125,0
+"Canoe Sprint",130.102040816327,0
+"Canoe Sprint",135.204081632653,0
+"Canoe Sprint",140.30612244898,0
+"Canoe Sprint",145.408163265306,0
+"Canoe Sprint",150.510204081633,0
+"Canoe Sprint",155.612244897959,0
+"Canoe Sprint",160.714285714286,0
+"Canoe Sprint",165.816326530612,0
+"Canoe Sprint",170.918367346939,0
+"Canoe Sprint",176.020408163265,0
+"Canoe Sprint",181.122448979592,0
+"Canoe Sprint",186.224489795918,0
+"Canoe Sprint",191.326530612245,0
+"Canoe Sprint",196.428571428571,0
+"Canoe Sprint",201.530612244898,0
+"Canoe Sprint",206.632653061224,0
+"Canoe Sprint",211.734693877551,0
+"Canoe Sprint",216.836734693878,0
+"Canoe Sprint",221.938775510204,0
+"Canoe Sprint",227.040816326531,0
+"Canoe Sprint",232.142857142857,0
+"Canoe Sprint",237.244897959184,0
+"Canoe Sprint",242.34693877551,0
+"Canoe Sprint",247.448979591837,0
+"Canoe Sprint",2.55102040816327,0
+"Cycling",2.55102040816327,0
+"Cycling",7.6530612244898,0
+"Cycling",12.7551020408163,0
+"Cycling",17.8571428571429,0
+"Cycling",22.9591836734694,0
+"Cycling",28.0612244897959,0
+"Cycling",33.1632653061224,0
+"Cycling",38.265306122449,0
+"Cycling",43.3673469387755,0
+"Cycling",48.469387755102,0
+"Cycling",53.5714285714286,1
+"Cycling",58.6734693877551,0
+"Cycling",63.7755102040816,1
+"Cycling",68.8775510204082,1
+"Cycling",73.9795918367347,1
+"Cycling",79.0816326530612,0
+"Cycling",84.1836734693878,0
+"Cycling",89.2857142857143,0
+"Cycling",94.3877551020408,0
+"Cycling",99.4897959183673,0
+"Cycling",104.591836734694,0
+"Cycling",109.69387755102,0
+"Cycling",114.795918367347,0
+"Cycling",119.897959183673,0
+"Cycling",125,0
+"Cycling",130.102040816327,0
+"Cycling",135.204081632653,0
+"Cycling",140.30612244898,0
+"Cycling",145.408163265306,0
+"Cycling",150.510204081633,0
+"Cycling",155.612244897959,0
+"Cycling",160.714285714286,0
+"Cycling",165.816326530612,0
+"Cycling",170.918367346939,0
+"Cycling",176.020408163265,0
+"Cycling",181.122448979592,0
+"Cycling",186.224489795918,0
+"Cycling",191.326530612245,0
+"Cycling",196.428571428571,0
+"Cycling",201.530612244898,0
+"Cycling",206.632653061224,0
+"Cycling",211.734693877551,0
+"Cycling",216.836734693878,0
+"Cycling",221.938775510204,0
+"Cycling",227.040816326531,0
+"Cycling",232.142857142857,0
+"Cycling",237.244897959184,0
+"Cycling",242.34693877551,0
+"Cycling",247.448979591837,0
+"Cycling",2.55102040816327,0
+"Cycling - BMX",2.55102040816327,0
+"Cycling - BMX",7.6530612244898,0
+"Cycling - BMX",12.7551020408163,0
+"Cycling - BMX",17.8571428571429,0
+"Cycling - BMX",22.9591836734694,0
+"Cycling - BMX",28.0612244897959,0
+"Cycling - BMX",33.1632653061224,0
+"Cycling - BMX",38.265306122449,0
+"Cycling - BMX",43.3673469387755,0
+"Cycling - BMX",48.469387755102,0
+"Cycling - BMX",53.5714285714286,1
+"Cycling - BMX",58.6734693877551,2
+"Cycling - BMX",63.7755102040816,5
+"Cycling - BMX",68.8775510204082,5
+"Cycling - BMX",73.9795918367347,4
+"Cycling - BMX",79.0816326530612,8
+"Cycling - BMX",84.1836734693878,6
+"Cycling - BMX",89.2857142857143,10
+"Cycling - BMX",94.3877551020408,1
+"Cycling - BMX",99.4897959183673,0
+"Cycling - BMX",104.591836734694,0
+"Cycling - BMX",109.69387755102,0
+"Cycling - BMX",114.795918367347,0
+"Cycling - BMX",119.897959183673,0
+"Cycling - BMX",125,0
+"Cycling - BMX",130.102040816327,0
+"Cycling - BMX",135.204081632653,0
+"Cycling - BMX",140.30612244898,0
+"Cycling - BMX",145.408163265306,0
+"Cycling - BMX",150.510204081633,0
+"Cycling - BMX",155.612244897959,0
+"Cycling - BMX",160.714285714286,0
+"Cycling - BMX",165.816326530612,0
+"Cycling - BMX",170.918367346939,0
+"Cycling - BMX",176.020408163265,0
+"Cycling - BMX",181.122448979592,0
+"Cycling - BMX",186.224489795918,0
+"Cycling - BMX",191.326530612245,0
+"Cycling - BMX",196.428571428571,0
+"Cycling - BMX",201.530612244898,0
+"Cycling - BMX",206.632653061224,0
+"Cycling - BMX",211.734693877551,0
+"Cycling - BMX",216.836734693878,0
+"Cycling - BMX",221.938775510204,0
+"Cycling - BMX",227.040816326531,0
+"Cycling - BMX",232.142857142857,0
+"Cycling - BMX",237.244897959184,0
+"Cycling - BMX",242.34693877551,0
+"Cycling - BMX",247.448979591837,0
+"Cycling - BMX",2.55102040816327,0
+"Cycling - BMX, Cycling - Track",2.55102040816327,0
+"Cycling - BMX, Cycling - Track",7.6530612244898,0
+"Cycling - BMX, Cycling - Track",12.7551020408163,0
+"Cycling - BMX, Cycling - Track",17.8571428571429,0
+"Cycling - BMX, Cycling - Track",22.9591836734694,0
+"Cycling - BMX, Cycling - Track",28.0612244897959,0
+"Cycling - BMX, Cycling - Track",33.1632653061224,0
+"Cycling - BMX, Cycling - Track",38.265306122449,0
+"Cycling - BMX, Cycling - Track",43.3673469387755,0
+"Cycling - BMX, Cycling - Track",48.469387755102,0
+"Cycling - BMX, Cycling - Track",53.5714285714286,0
+"Cycling - BMX, Cycling - Track",58.6734693877551,0
+"Cycling - BMX, Cycling - Track",63.7755102040816,0
+"Cycling - BMX, Cycling - Track",68.8775510204082,0
+"Cycling - BMX, Cycling - Track",73.9795918367347,0
+"Cycling - BMX, Cycling - Track",79.0816326530612,1
+"Cycling - BMX, Cycling - Track",84.1836734693878,0
+"Cycling - BMX, Cycling - Track",89.2857142857143,0
+"Cycling - BMX, Cycling - Track",94.3877551020408,0
+"Cycling - BMX, Cycling - Track",99.4897959183673,0
+"Cycling - BMX, Cycling - Track",104.591836734694,0
+"Cycling - BMX, Cycling - Track",109.69387755102,0
+"Cycling - BMX, Cycling - Track",114.795918367347,0
+"Cycling - BMX, Cycling - Track",119.897959183673,0
+"Cycling - BMX, Cycling - Track",125,0
+"Cycling - BMX, Cycling - Track",130.102040816327,0
+"Cycling - BMX, Cycling - Track",135.204081632653,0
+"Cycling - BMX, Cycling - Track",140.30612244898,0
+"Cycling - BMX, Cycling - Track",145.408163265306,0
+"Cycling - BMX, Cycling - Track",150.510204081633,0
+"Cycling - BMX, Cycling - Track",155.612244897959,0
+"Cycling - BMX, Cycling - Track",160.714285714286,0
+"Cycling - BMX, Cycling - Track",165.816326530612,0
+"Cycling - BMX, Cycling - Track",170.918367346939,0
+"Cycling - BMX, Cycling - Track",176.020408163265,0
+"Cycling - BMX, Cycling - Track",181.122448979592,0
+"Cycling - BMX, Cycling - Track",186.224489795918,0
+"Cycling - BMX, Cycling - Track",191.326530612245,0
+"Cycling - BMX, Cycling - Track",196.428571428571,0
+"Cycling - BMX, Cycling - Track",201.530612244898,0
+"Cycling - BMX, Cycling - Track",206.632653061224,0
+"Cycling - BMX, Cycling - Track",211.734693877551,0
+"Cycling - BMX, Cycling - Track",216.836734693878,0
+"Cycling - BMX, Cycling - Track",221.938775510204,0
+"Cycling - BMX, Cycling - Track",227.040816326531,0
+"Cycling - BMX, Cycling - Track",232.142857142857,0
+"Cycling - BMX, Cycling - Track",237.244897959184,0
+"Cycling - BMX, Cycling - Track",242.34693877551,0
+"Cycling - BMX, Cycling - Track",247.448979591837,0
+"Cycling - BMX, Cycling - Track",2.55102040816327,0
+"Cycling - Mountain Bike",2.55102040816327,0
+"Cycling - Mountain Bike",7.6530612244898,0
+"Cycling - Mountain Bike",12.7551020408163,0
+"Cycling - Mountain Bike",17.8571428571429,0
+"Cycling - Mountain Bike",22.9591836734694,0
+"Cycling - Mountain Bike",28.0612244897959,0
+"Cycling - Mountain Bike",33.1632653061224,0
+"Cycling - Mountain Bike",38.265306122449,0
+"Cycling - Mountain Bike",43.3673469387755,1
+"Cycling - Mountain Bike",48.469387755102,9
+"Cycling - Mountain Bike",53.5714285714286,9
+"Cycling - Mountain Bike",58.6734693877551,7
+"Cycling - Mountain Bike",63.7755102040816,18
+"Cycling - Mountain Bike",68.8775510204082,21
+"Cycling - Mountain Bike",73.9795918367347,4
+"Cycling - Mountain Bike",79.0816326530612,1
+"Cycling - Mountain Bike",84.1836734693878,0
+"Cycling - Mountain Bike",89.2857142857143,0
+"Cycling - Mountain Bike",94.3877551020408,0
+"Cycling - Mountain Bike",99.4897959183673,0
+"Cycling - Mountain Bike",104.591836734694,0
+"Cycling - Mountain Bike",109.69387755102,0
+"Cycling - Mountain Bike",114.795918367347,0
+"Cycling - Mountain Bike",119.897959183673,0
+"Cycling - Mountain Bike",125,0
+"Cycling - Mountain Bike",130.102040816327,0
+"Cycling - Mountain Bike",135.204081632653,0
+"Cycling - Mountain Bike",140.30612244898,0
+"Cycling - Mountain Bike",145.408163265306,0
+"Cycling - Mountain Bike",150.510204081633,0
+"Cycling - Mountain Bike",155.612244897959,0
+"Cycling - Mountain Bike",160.714285714286,0
+"Cycling - Mountain Bike",165.816326530612,0
+"Cycling - Mountain Bike",170.918367346939,0
+"Cycling - Mountain Bike",176.020408163265,0
+"Cycling - Mountain Bike",181.122448979592,0
+"Cycling - Mountain Bike",186.224489795918,0
+"Cycling - Mountain Bike",191.326530612245,0
+"Cycling - Mountain Bike",196.428571428571,0
+"Cycling - Mountain Bike",201.530612244898,0
+"Cycling - Mountain Bike",206.632653061224,0
+"Cycling - Mountain Bike",211.734693877551,0
+"Cycling - Mountain Bike",216.836734693878,0
+"Cycling - Mountain Bike",221.938775510204,0
+"Cycling - Mountain Bike",227.040816326531,0
+"Cycling - Mountain Bike",232.142857142857,0
+"Cycling - Mountain Bike",237.244897959184,0
+"Cycling - Mountain Bike",242.34693877551,0
+"Cycling - Mountain Bike",247.448979591837,0
+"Cycling - Mountain Bike",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Road",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Road",7.6530612244898,0
+"Cycling - Mountain Bike, Cycling - Road",12.7551020408163,0
+"Cycling - Mountain Bike, Cycling - Road",17.8571428571429,0
+"Cycling - Mountain Bike, Cycling - Road",22.9591836734694,0
+"Cycling - Mountain Bike, Cycling - Road",28.0612244897959,0
+"Cycling - Mountain Bike, Cycling - Road",33.1632653061224,0
+"Cycling - Mountain Bike, Cycling - Road",38.265306122449,0
+"Cycling - Mountain Bike, Cycling - Road",43.3673469387755,0
+"Cycling - Mountain Bike, Cycling - Road",48.469387755102,0
+"Cycling - Mountain Bike, Cycling - Road",53.5714285714286,0
+"Cycling - Mountain Bike, Cycling - Road",58.6734693877551,1
+"Cycling - Mountain Bike, Cycling - Road",63.7755102040816,1
+"Cycling - Mountain Bike, Cycling - Road",68.8775510204082,0
+"Cycling - Mountain Bike, Cycling - Road",73.9795918367347,0
+"Cycling - Mountain Bike, Cycling - Road",79.0816326530612,0
+"Cycling - Mountain Bike, Cycling - Road",84.1836734693878,0
+"Cycling - Mountain Bike, Cycling - Road",89.2857142857143,0
+"Cycling - Mountain Bike, Cycling - Road",94.3877551020408,0
+"Cycling - Mountain Bike, Cycling - Road",99.4897959183673,0
+"Cycling - Mountain Bike, Cycling - Road",104.591836734694,0
+"Cycling - Mountain Bike, Cycling - Road",109.69387755102,0
+"Cycling - Mountain Bike, Cycling - Road",114.795918367347,0
+"Cycling - Mountain Bike, Cycling - Road",119.897959183673,0
+"Cycling - Mountain Bike, Cycling - Road",125,0
+"Cycling - Mountain Bike, Cycling - Road",130.102040816327,0
+"Cycling - Mountain Bike, Cycling - Road",135.204081632653,0
+"Cycling - Mountain Bike, Cycling - Road",140.30612244898,0
+"Cycling - Mountain Bike, Cycling - Road",145.408163265306,0
+"Cycling - Mountain Bike, Cycling - Road",150.510204081633,0
+"Cycling - Mountain Bike, Cycling - Road",155.612244897959,0
+"Cycling - Mountain Bike, Cycling - Road",160.714285714286,0
+"Cycling - Mountain Bike, Cycling - Road",165.816326530612,0
+"Cycling - Mountain Bike, Cycling - Road",170.918367346939,0
+"Cycling - Mountain Bike, Cycling - Road",176.020408163265,0
+"Cycling - Mountain Bike, Cycling - Road",181.122448979592,0
+"Cycling - Mountain Bike, Cycling - Road",186.224489795918,0
+"Cycling - Mountain Bike, Cycling - Road",191.326530612245,0
+"Cycling - Mountain Bike, Cycling - Road",196.428571428571,0
+"Cycling - Mountain Bike, Cycling - Road",201.530612244898,0
+"Cycling - Mountain Bike, Cycling - Road",206.632653061224,0
+"Cycling - Mountain Bike, Cycling - Road",211.734693877551,0
+"Cycling - Mountain Bike, Cycling - Road",216.836734693878,0
+"Cycling - Mountain Bike, Cycling - Road",221.938775510204,0
+"Cycling - Mountain Bike, Cycling - Road",227.040816326531,0
+"Cycling - Mountain Bike, Cycling - Road",232.142857142857,0
+"Cycling - Mountain Bike, Cycling - Road",237.244897959184,0
+"Cycling - Mountain Bike, Cycling - Road",242.34693877551,0
+"Cycling - Mountain Bike, Cycling - Road",247.448979591837,0
+"Cycling - Mountain Bike, Cycling - Road",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",7.6530612244898,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",12.7551020408163,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",17.8571428571429,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",22.9591836734694,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",28.0612244897959,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",33.1632653061224,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",38.265306122449,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",43.3673469387755,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",48.469387755102,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",53.5714285714286,1
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",58.6734693877551,2
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",63.7755102040816,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",68.8775510204082,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",73.9795918367347,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",79.0816326530612,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",84.1836734693878,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",89.2857142857143,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",94.3877551020408,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",99.4897959183673,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",104.591836734694,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",109.69387755102,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",114.795918367347,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",119.897959183673,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",125,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",130.102040816327,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",135.204081632653,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",140.30612244898,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",145.408163265306,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",150.510204081633,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",155.612244897959,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",160.714285714286,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",165.816326530612,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",170.918367346939,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",176.020408163265,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",181.122448979592,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",186.224489795918,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",191.326530612245,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",196.428571428571,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",201.530612244898,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",206.632653061224,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",211.734693877551,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",216.836734693878,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",221.938775510204,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",227.040816326531,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",232.142857142857,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",237.244897959184,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",242.34693877551,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",247.448979591837,0
+"Cycling - Mountain Bike, Cycling - Road, Cycling - Track",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Track",2.55102040816327,0
+"Cycling - Mountain Bike, Cycling - Track",7.6530612244898,0
+"Cycling - Mountain Bike, Cycling - Track",12.7551020408163,0
+"Cycling - Mountain Bike, Cycling - Track",17.8571428571429,0
+"Cycling - Mountain Bike, Cycling - Track",22.9591836734694,0
+"Cycling - Mountain Bike, Cycling - Track",28.0612244897959,0
+"Cycling - Mountain Bike, Cycling - Track",33.1632653061224,0
+"Cycling - Mountain Bike, Cycling - Track",38.265306122449,0
+"Cycling - Mountain Bike, Cycling - Track",43.3673469387755,0
+"Cycling - Mountain Bike, Cycling - Track",48.469387755102,0
+"Cycling - Mountain Bike, Cycling - Track",53.5714285714286,0
+"Cycling - Mountain Bike, Cycling - Track",58.6734693877551,0
+"Cycling - Mountain Bike, Cycling - Track",63.7755102040816,0
+"Cycling - Mountain Bike, Cycling - Track",68.8775510204082,1
+"Cycling - Mountain Bike, Cycling - Track",73.9795918367347,0
+"Cycling - Mountain Bike, Cycling - Track",79.0816326530612,1
+"Cycling - Mountain Bike, Cycling - Track",84.1836734693878,0
+"Cycling - Mountain Bike, Cycling - Track",89.2857142857143,1
+"Cycling - Mountain Bike, Cycling - Track",94.3877551020408,0
+"Cycling - Mountain Bike, Cycling - Track",99.4897959183673,0
+"Cycling - Mountain Bike, Cycling - Track",104.591836734694,0
+"Cycling - Mountain Bike, Cycling - Track",109.69387755102,0
+"Cycling - Mountain Bike, Cycling - Track",114.795918367347,0
+"Cycling - Mountain Bike, Cycling - Track",119.897959183673,0
+"Cycling - Mountain Bike, Cycling - Track",125,0
+"Cycling - Mountain Bike, Cycling - Track",130.102040816327,0
+"Cycling - Mountain Bike, Cycling - Track",135.204081632653,0
+"Cycling - Mountain Bike, Cycling - Track",140.30612244898,0
+"Cycling - Mountain Bike, Cycling - Track",145.408163265306,0
+"Cycling - Mountain Bike, Cycling - Track",150.510204081633,0
+"Cycling - Mountain Bike, Cycling - Track",155.612244897959,0
+"Cycling - Mountain Bike, Cycling - Track",160.714285714286,0
+"Cycling - Mountain Bike, Cycling - Track",165.816326530612,0
+"Cycling - Mountain Bike, Cycling - Track",170.918367346939,0
+"Cycling - Mountain Bike, Cycling - Track",176.020408163265,0
+"Cycling - Mountain Bike, Cycling - Track",181.122448979592,0
+"Cycling - Mountain Bike, Cycling - Track",186.224489795918,0
+"Cycling - Mountain Bike, Cycling - Track",191.326530612245,0
+"Cycling - Mountain Bike, Cycling - Track",196.428571428571,0
+"Cycling - Mountain Bike, Cycling - Track",201.530612244898,0
+"Cycling - Mountain Bike, Cycling - Track",206.632653061224,0
+"Cycling - Mountain Bike, Cycling - Track",211.734693877551,0
+"Cycling - Mountain Bike, Cycling - Track",216.836734693878,0
+"Cycling - Mountain Bike, Cycling - Track",221.938775510204,0
+"Cycling - Mountain Bike, Cycling - Track",227.040816326531,0
+"Cycling - Mountain Bike, Cycling - Track",232.142857142857,0
+"Cycling - Mountain Bike, Cycling - Track",237.244897959184,0
+"Cycling - Mountain Bike, Cycling - Track",242.34693877551,0
+"Cycling - Mountain Bike, Cycling - Track",247.448979591837,0
+"Cycling - Mountain Bike, Cycling - Track",2.55102040816327,0
+"Cycling - Road",2.55102040816327,0
+"Cycling - Road",7.6530612244898,0
+"Cycling - Road",12.7551020408163,0
+"Cycling - Road",17.8571428571429,0
+"Cycling - Road",22.9591836734694,0
+"Cycling - Road",28.0612244897959,0
+"Cycling - Road",33.1632653061224,0
+"Cycling - Road",38.265306122449,0
+"Cycling - Road",43.3673469387755,1
+"Cycling - Road",48.469387755102,4
+"Cycling - Road",53.5714285714286,22
+"Cycling - Road",58.6734693877551,25
+"Cycling - Road",63.7755102040816,28
+"Cycling - Road",68.8775510204082,42
+"Cycling - Road",73.9795918367347,31
+"Cycling - Road",79.0816326530612,18
+"Cycling - Road",84.1836734693878,7
+"Cycling - Road",89.2857142857143,0
+"Cycling - Road",94.3877551020408,0
+"Cycling - Road",99.4897959183673,0
+"Cycling - Road",104.591836734694,0
+"Cycling - Road",109.69387755102,0
+"Cycling - Road",114.795918367347,0
+"Cycling - Road",119.897959183673,0
+"Cycling - Road",125,0
+"Cycling - Road",130.102040816327,0
+"Cycling - Road",135.204081632653,0
+"Cycling - Road",140.30612244898,0
+"Cycling - Road",145.408163265306,0
+"Cycling - Road",150.510204081633,0
+"Cycling - Road",155.612244897959,0
+"Cycling - Road",160.714285714286,0
+"Cycling - Road",165.816326530612,0
+"Cycling - Road",170.918367346939,0
+"Cycling - Road",176.020408163265,0
+"Cycling - Road",181.122448979592,0
+"Cycling - Road",186.224489795918,0
+"Cycling - Road",191.326530612245,0
+"Cycling - Road",196.428571428571,0
+"Cycling - Road",201.530612244898,0
+"Cycling - Road",206.632653061224,0
+"Cycling - Road",211.734693877551,0
+"Cycling - Road",216.836734693878,0
+"Cycling - Road",221.938775510204,0
+"Cycling - Road",227.040816326531,0
+"Cycling - Road",232.142857142857,0
+"Cycling - Road",237.244897959184,0
+"Cycling - Road",242.34693877551,0
+"Cycling - Road",247.448979591837,0
+"Cycling - Road",2.55102040816327,0
+"Cycling - Road, Cycling - Track",2.55102040816327,0
+"Cycling - Road, Cycling - Track",7.6530612244898,0
+"Cycling - Road, Cycling - Track",12.7551020408163,0
+"Cycling - Road, Cycling - Track",17.8571428571429,0
+"Cycling - Road, Cycling - Track",22.9591836734694,0
+"Cycling - Road, Cycling - Track",28.0612244897959,0
+"Cycling - Road, Cycling - Track",33.1632653061224,0
+"Cycling - Road, Cycling - Track",38.265306122449,0
+"Cycling - Road, Cycling - Track",43.3673469387755,0
+"Cycling - Road, Cycling - Track",48.469387755102,0
+"Cycling - Road, Cycling - Track",53.5714285714286,3
+"Cycling - Road, Cycling - Track",58.6734693877551,2
+"Cycling - Road, Cycling - Track",63.7755102040816,2
+"Cycling - Road, Cycling - Track",68.8775510204082,4
+"Cycling - Road, Cycling - Track",73.9795918367347,3
+"Cycling - Road, Cycling - Track",79.0816326530612,2
+"Cycling - Road, Cycling - Track",84.1836734693878,0
+"Cycling - Road, Cycling - Track",89.2857142857143,0
+"Cycling - Road, Cycling - Track",94.3877551020408,0
+"Cycling - Road, Cycling - Track",99.4897959183673,0
+"Cycling - Road, Cycling - Track",104.591836734694,0
+"Cycling - Road, Cycling - Track",109.69387755102,0
+"Cycling - Road, Cycling - Track",114.795918367347,0
+"Cycling - Road, Cycling - Track",119.897959183673,0
+"Cycling - Road, Cycling - Track",125,0
+"Cycling - Road, Cycling - Track",130.102040816327,0
+"Cycling - Road, Cycling - Track",135.204081632653,0
+"Cycling - Road, Cycling - Track",140.30612244898,0
+"Cycling - Road, Cycling - Track",145.408163265306,0
+"Cycling - Road, Cycling - Track",150.510204081633,0
+"Cycling - Road, Cycling - Track",155.612244897959,0
+"Cycling - Road, Cycling - Track",160.714285714286,0
+"Cycling - Road, Cycling - Track",165.816326530612,0
+"Cycling - Road, Cycling - Track",170.918367346939,0
+"Cycling - Road, Cycling - Track",176.020408163265,0
+"Cycling - Road, Cycling - Track",181.122448979592,0
+"Cycling - Road, Cycling - Track",186.224489795918,0
+"Cycling - Road, Cycling - Track",191.326530612245,0
+"Cycling - Road, Cycling - Track",196.428571428571,0
+"Cycling - Road, Cycling - Track",201.530612244898,0
+"Cycling - Road, Cycling - Track",206.632653061224,0
+"Cycling - Road, Cycling - Track",211.734693877551,0
+"Cycling - Road, Cycling - Track",216.836734693878,0
+"Cycling - Road, Cycling - Track",221.938775510204,0
+"Cycling - Road, Cycling - Track",227.040816326531,0
+"Cycling - Road, Cycling - Track",232.142857142857,0
+"Cycling - Road, Cycling - Track",237.244897959184,0
+"Cycling - Road, Cycling - Track",242.34693877551,0
+"Cycling - Road, Cycling - Track",247.448979591837,0
+"Cycling - Road, Cycling - Track",2.55102040816327,0
+"Cycling - Track",2.55102040816327,0
+"Cycling - Track",7.6530612244898,0
+"Cycling - Track",12.7551020408163,0
+"Cycling - Track",17.8571428571429,0
+"Cycling - Track",22.9591836734694,0
+"Cycling - Track",28.0612244897959,0
+"Cycling - Track",33.1632653061224,0
+"Cycling - Track",38.265306122449,0
+"Cycling - Track",43.3673469387755,0
+"Cycling - Track",48.469387755102,3
+"Cycling - Track",53.5714285714286,2
+"Cycling - Track",58.6734693877551,23
+"Cycling - Track",63.7755102040816,27
+"Cycling - Track",68.8775510204082,26
+"Cycling - Track",73.9795918367347,22
+"Cycling - Track",79.0816326530612,26
+"Cycling - Track",84.1836734693878,11
+"Cycling - Track",89.2857142857143,8
+"Cycling - Track",94.3877551020408,11
+"Cycling - Track",99.4897959183673,1
+"Cycling - Track",104.591836734694,0
+"Cycling - Track",109.69387755102,0
+"Cycling - Track",114.795918367347,0
+"Cycling - Track",119.897959183673,0
+"Cycling - Track",125,0
+"Cycling - Track",130.102040816327,0
+"Cycling - Track",135.204081632653,0
+"Cycling - Track",140.30612244898,0
+"Cycling - Track",145.408163265306,0
+"Cycling - Track",150.510204081633,0
+"Cycling - Track",155.612244897959,0
+"Cycling - Track",160.714285714286,0
+"Cycling - Track",165.816326530612,0
+"Cycling - Track",170.918367346939,0
+"Cycling - Track",176.020408163265,0
+"Cycling - Track",181.122448979592,0
+"Cycling - Track",186.224489795918,0
+"Cycling - Track",191.326530612245,0
+"Cycling - Track",196.428571428571,0
+"Cycling - Track",201.530612244898,0
+"Cycling - Track",206.632653061224,0
+"Cycling - Track",211.734693877551,0
+"Cycling - Track",216.836734693878,0
+"Cycling - Track",221.938775510204,0
+"Cycling - Track",227.040816326531,0
+"Cycling - Track",232.142857142857,0
+"Cycling - Track",237.244897959184,0
+"Cycling - Track",242.34693877551,0
+"Cycling - Track",247.448979591837,0
+"Cycling - Track",2.55102040816327,0
+"Diving",2.55102040816327,0
+"Diving",7.6530612244898,0
+"Diving",12.7551020408163,0
+"Diving",17.8571428571429,0
+"Diving",22.9591836734694,0
+"Diving",28.0612244897959,0
+"Diving",33.1632653061224,0
+"Diving",38.265306122449,1
+"Diving",43.3673469387755,6
+"Diving",48.469387755102,20
+"Diving",53.5714285714286,21
+"Diving",58.6734693877551,29
+"Diving",63.7755102040816,20
+"Diving",68.8775510204082,16
+"Diving",73.9795918367347,14
+"Diving",79.0816326530612,3
+"Diving",84.1836734693878,0
+"Diving",89.2857142857143,0
+"Diving",94.3877551020408,0
+"Diving",99.4897959183673,0
+"Diving",104.591836734694,0
+"Diving",109.69387755102,0
+"Diving",114.795918367347,0
+"Diving",119.897959183673,0
+"Diving",125,0
+"Diving",130.102040816327,0
+"Diving",135.204081632653,0
+"Diving",140.30612244898,0
+"Diving",145.408163265306,0
+"Diving",150.510204081633,0
+"Diving",155.612244897959,0
+"Diving",160.714285714286,0
+"Diving",165.816326530612,0
+"Diving",170.918367346939,0
+"Diving",176.020408163265,0
+"Diving",181.122448979592,0
+"Diving",186.224489795918,0
+"Diving",191.326530612245,0
+"Diving",196.428571428571,0
+"Diving",201.530612244898,0
+"Diving",206.632653061224,0
+"Diving",211.734693877551,0
+"Diving",216.836734693878,0
+"Diving",221.938775510204,0
+"Diving",227.040816326531,0
+"Diving",232.142857142857,0
+"Diving",237.244897959184,0
+"Diving",242.34693877551,0
+"Diving",247.448979591837,0
+"Diving",2.55102040816327,0
+"Equestrian",2.55102040816327,0
+"Equestrian",7.6530612244898,0
+"Equestrian",12.7551020408163,0
+"Equestrian",17.8571428571429,0
+"Equestrian",22.9591836734694,0
+"Equestrian",28.0612244897959,0
+"Equestrian",33.1632653061224,0
+"Equestrian",38.265306122449,0
+"Equestrian",43.3673469387755,0
+"Equestrian",48.469387755102,4
+"Equestrian",53.5714285714286,21
+"Equestrian",58.6734693877551,30
+"Equestrian",63.7755102040816,34
+"Equestrian",68.8775510204082,32
+"Equestrian",73.9795918367347,27
+"Equestrian",79.0816326530612,24
+"Equestrian",84.1836734693878,6
+"Equestrian",89.2857142857143,3
+"Equestrian",94.3877551020408,0
+"Equestrian",99.4897959183673,0
+"Equestrian",104.591836734694,0
+"Equestrian",109.69387755102,0
+"Equestrian",114.795918367347,0
+"Equestrian",119.897959183673,0
+"Equestrian",125,0
+"Equestrian",130.102040816327,0
+"Equestrian",135.204081632653,0
+"Equestrian",140.30612244898,0
+"Equestrian",145.408163265306,0
+"Equestrian",150.510204081633,0
+"Equestrian",155.612244897959,0
+"Equestrian",160.714285714286,0
+"Equestrian",165.816326530612,0
+"Equestrian",170.918367346939,0
+"Equestrian",176.020408163265,0
+"Equestrian",181.122448979592,0
+"Equestrian",186.224489795918,0
+"Equestrian",191.326530612245,0
+"Equestrian",196.428571428571,0
+"Equestrian",201.530612244898,0
+"Equestrian",206.632653061224,0
+"Equestrian",211.734693877551,0
+"Equestrian",216.836734693878,0
+"Equestrian",221.938775510204,0
+"Equestrian",227.040816326531,0
+"Equestrian",232.142857142857,0
+"Equestrian",237.244897959184,0
+"Equestrian",242.34693877551,0
+"Equestrian",247.448979591837,0
+"Equestrian",2.55102040816327,0
+"Fencing",2.55102040816327,0
+"Fencing",7.6530612244898,0
+"Fencing",12.7551020408163,0
+"Fencing",17.8571428571429,0
+"Fencing",22.9591836734694,0
+"Fencing",28.0612244897959,0
+"Fencing",33.1632653061224,0
+"Fencing",38.265306122449,0
+"Fencing",43.3673469387755,1
+"Fencing",48.469387755102,5
+"Fencing",53.5714285714286,25
+"Fencing",58.6734693877551,30
+"Fencing",63.7755102040816,39
+"Fencing",68.8775510204082,29
+"Fencing",73.9795918367347,39
+"Fencing",79.0816326530612,30
+"Fencing",84.1836734693878,16
+"Fencing",89.2857142857143,11
+"Fencing",94.3877551020408,4
+"Fencing",99.4897959183673,2
+"Fencing",104.591836734694,0
+"Fencing",109.69387755102,0
+"Fencing",114.795918367347,0
+"Fencing",119.897959183673,0
+"Fencing",125,0
+"Fencing",130.102040816327,0
+"Fencing",135.204081632653,0
+"Fencing",140.30612244898,0
+"Fencing",145.408163265306,0
+"Fencing",150.510204081633,0
+"Fencing",155.612244897959,0
+"Fencing",160.714285714286,0
+"Fencing",165.816326530612,0
+"Fencing",170.918367346939,0
+"Fencing",176.020408163265,0
+"Fencing",181.122448979592,0
+"Fencing",186.224489795918,0
+"Fencing",191.326530612245,0
+"Fencing",196.428571428571,0
+"Fencing",201.530612244898,0
+"Fencing",206.632653061224,0
+"Fencing",211.734693877551,0
+"Fencing",216.836734693878,0
+"Fencing",221.938775510204,0
+"Fencing",227.040816326531,0
+"Fencing",232.142857142857,0
+"Fencing",237.244897959184,0
+"Fencing",242.34693877551,0
+"Fencing",247.448979591837,0
+"Fencing",2.55102040816327,0
+"Football",2.55102040816327,0
+"Football",7.6530612244898,0
+"Football",12.7551020408163,0
+"Football",17.8571428571429,0
+"Football",22.9591836734694,0
+"Football",28.0612244897959,0
+"Football",33.1632653061224,0
+"Football",38.265306122449,0
+"Football",43.3673469387755,1
+"Football",48.469387755102,8
+"Football",53.5714285714286,60
+"Football",58.6734693877551,71
+"Football",63.7755102040816,111
+"Football",68.8775510204082,109
+"Football",73.9795918367347,103
+"Football",79.0816326530612,73
+"Football",84.1836734693878,36
+"Football",89.2857142857143,14
+"Football",94.3877551020408,4
+"Football",99.4897959183673,0
+"Football",104.591836734694,0
+"Football",109.69387755102,0
+"Football",114.795918367347,0
+"Football",119.897959183673,0
+"Football",125,0
+"Football",130.102040816327,0
+"Football",135.204081632653,0
+"Football",140.30612244898,0
+"Football",145.408163265306,0
+"Football",150.510204081633,0
+"Football",155.612244897959,0
+"Football",160.714285714286,0
+"Football",165.816326530612,0
+"Football",170.918367346939,0
+"Football",176.020408163265,0
+"Football",181.122448979592,0
+"Football",186.224489795918,0
+"Football",191.326530612245,0
+"Football",196.428571428571,0
+"Football",201.530612244898,0
+"Football",206.632653061224,0
+"Football",211.734693877551,0
+"Football",216.836734693878,0
+"Football",221.938775510204,0
+"Football",227.040816326531,0
+"Football",232.142857142857,0
+"Football",237.244897959184,0
+"Football",242.34693877551,0
+"Football",247.448979591837,0
+"Football",2.55102040816327,0
+"Handball",2.55102040816327,0
+"Handball",7.6530612244898,0
+"Handball",12.7551020408163,0
+"Handball",17.8571428571429,0
+"Handball",22.9591836734694,0
+"Handball",28.0612244897959,0
+"Handball",33.1632653061224,0
+"Handball",38.265306122449,0
+"Handball",43.3673469387755,0
+"Handball",48.469387755102,1
+"Handball",53.5714285714286,3
+"Handball",58.6734693877551,14
+"Handball",63.7755102040816,39
+"Handball",68.8775510204082,35
+"Handball",73.9795918367347,37
+"Handball",79.0816326530612,24
+"Handball",84.1836734693878,24
+"Handball",89.2857142857143,25
+"Handball",94.3877551020408,35
+"Handball",99.4897959183673,30
+"Handball",104.591836734694,21
+"Handball",109.69387755102,10
+"Handball",114.795918367347,5
+"Handball",119.897959183673,1
+"Handball",125,0
+"Handball",130.102040816327,0
+"Handball",135.204081632653,0
+"Handball",140.30612244898,0
+"Handball",145.408163265306,0
+"Handball",150.510204081633,0
+"Handball",155.612244897959,0
+"Handball",160.714285714286,0
+"Handball",165.816326530612,0
+"Handball",170.918367346939,0
+"Handball",176.020408163265,0
+"Handball",181.122448979592,0
+"Handball",186.224489795918,0
+"Handball",191.326530612245,0
+"Handball",196.428571428571,0
+"Handball",201.530612244898,0
+"Handball",206.632653061224,0
+"Handball",211.734693877551,0
+"Handball",216.836734693878,0
+"Handball",221.938775510204,0
+"Handball",227.040816326531,0
+"Handball",232.142857142857,0
+"Handball",237.244897959184,0
+"Handball",242.34693877551,0
+"Handball",247.448979591837,0
+"Handball",2.55102040816327,0
+"Hockey",2.55102040816327,0
+"Hockey",7.6530612244898,0
+"Hockey",12.7551020408163,0
+"Hockey",17.8571428571429,0
+"Hockey",22.9591836734694,0
+"Hockey",28.0612244897959,0
+"Hockey",33.1632653061224,0
+"Hockey",38.265306122449,0
+"Hockey",43.3673469387755,0
+"Hockey",48.469387755102,6
+"Hockey",53.5714285714286,34
+"Hockey",58.6734693877551,74
+"Hockey",63.7755102040816,61
+"Hockey",68.8775510204082,49
+"Hockey",73.9795918367347,56
+"Hockey",79.0816326530612,57
+"Hockey",84.1836734693878,26
+"Hockey",89.2857142857143,9
+"Hockey",94.3877551020408,8
+"Hockey",99.4897959183673,3
+"Hockey",104.591836734694,0
+"Hockey",109.69387755102,0
+"Hockey",114.795918367347,0
+"Hockey",119.897959183673,0
+"Hockey",125,0
+"Hockey",130.102040816327,0
+"Hockey",135.204081632653,0
+"Hockey",140.30612244898,0
+"Hockey",145.408163265306,0
+"Hockey",150.510204081633,0
+"Hockey",155.612244897959,0
+"Hockey",160.714285714286,0
+"Hockey",165.816326530612,0
+"Hockey",170.918367346939,0
+"Hockey",176.020408163265,0
+"Hockey",181.122448979592,0
+"Hockey",186.224489795918,0
+"Hockey",191.326530612245,0
+"Hockey",196.428571428571,0
+"Hockey",201.530612244898,0
+"Hockey",206.632653061224,0
+"Hockey",211.734693877551,0
+"Hockey",216.836734693878,0
+"Hockey",221.938775510204,0
+"Hockey",227.040816326531,0
+"Hockey",232.142857142857,0
+"Hockey",237.244897959184,0
+"Hockey",242.34693877551,0
+"Hockey",247.448979591837,0
+"Hockey",2.55102040816327,0
+"Judo",2.55102040816327,0
+"Judo",7.6530612244898,0
+"Judo",12.7551020408163,0
+"Judo",17.8571428571429,0
+"Judo",22.9591836734694,0
+"Judo",28.0612244897959,0
+"Judo",33.1632653061224,0
+"Judo",38.265306122449,0
+"Judo",43.3673469387755,0
+"Judo",48.469387755102,20
+"Judo",53.5714285714286,23
+"Judo",58.6734693877551,59
+"Judo",63.7755102040816,59
+"Judo",68.8775510204082,20
+"Judo",73.9795918367347,35
+"Judo",79.0816326530612,55
+"Judo",84.1836734693878,4
+"Judo",89.2857142857143,27
+"Judo",94.3877551020408,3
+"Judo",99.4897959183673,30
+"Judo",104.591836734694,4
+"Judo",109.69387755102,4
+"Judo",114.795918367347,2
+"Judo",119.897959183673,5
+"Judo",125,4
+"Judo",130.102040816327,5
+"Judo",135.204081632653,4
+"Judo",140.30612244898,3
+"Judo",145.408163265306,2
+"Judo",150.510204081633,0
+"Judo",155.612244897959,1
+"Judo",160.714285714286,0
+"Judo",165.816326530612,0
+"Judo",170.918367346939,1
+"Judo",176.020408163265,0
+"Judo",181.122448979592,0
+"Judo",186.224489795918,0
+"Judo",191.326530612245,0
+"Judo",196.428571428571,0
+"Judo",201.530612244898,0
+"Judo",206.632653061224,0
+"Judo",211.734693877551,0
+"Judo",216.836734693878,1
+"Judo",221.938775510204,0
+"Judo",227.040816326531,0
+"Judo",232.142857142857,0
+"Judo",237.244897959184,0
+"Judo",242.34693877551,0
+"Judo",247.448979591837,0
+"Judo",2.55102040816327,0
+"Modern Pentathlon",2.55102040816327,0
+"Modern Pentathlon",7.6530612244898,0
+"Modern Pentathlon",12.7551020408163,0
+"Modern Pentathlon",17.8571428571429,0
+"Modern Pentathlon",22.9591836734694,0
+"Modern Pentathlon",28.0612244897959,0
+"Modern Pentathlon",33.1632653061224,0
+"Modern Pentathlon",38.265306122449,0
+"Modern Pentathlon",43.3673469387755,1
+"Modern Pentathlon",48.469387755102,2
+"Modern Pentathlon",53.5714285714286,9
+"Modern Pentathlon",58.6734693877551,19
+"Modern Pentathlon",63.7755102040816,6
+"Modern Pentathlon",68.8775510204082,4
+"Modern Pentathlon",73.9795918367347,14
+"Modern Pentathlon",79.0816326530612,6
+"Modern Pentathlon",84.1836734693878,3
+"Modern Pentathlon",89.2857142857143,2
+"Modern Pentathlon",94.3877551020408,0
+"Modern Pentathlon",99.4897959183673,0
+"Modern Pentathlon",104.591836734694,0
+"Modern Pentathlon",109.69387755102,0
+"Modern Pentathlon",114.795918367347,0
+"Modern Pentathlon",119.897959183673,0
+"Modern Pentathlon",125,0
+"Modern Pentathlon",130.102040816327,0
+"Modern Pentathlon",135.204081632653,0
+"Modern Pentathlon",140.30612244898,0
+"Modern Pentathlon",145.408163265306,0
+"Modern Pentathlon",150.510204081633,0
+"Modern Pentathlon",155.612244897959,0
+"Modern Pentathlon",160.714285714286,0
+"Modern Pentathlon",165.816326530612,0
+"Modern Pentathlon",170.918367346939,0
+"Modern Pentathlon",176.020408163265,0
+"Modern Pentathlon",181.122448979592,0
+"Modern Pentathlon",186.224489795918,0
+"Modern Pentathlon",191.326530612245,0
+"Modern Pentathlon",196.428571428571,0
+"Modern Pentathlon",201.530612244898,0
+"Modern Pentathlon",206.632653061224,0
+"Modern Pentathlon",211.734693877551,0
+"Modern Pentathlon",216.836734693878,0
+"Modern Pentathlon",221.938775510204,0
+"Modern Pentathlon",227.040816326531,0
+"Modern Pentathlon",232.142857142857,0
+"Modern Pentathlon",237.244897959184,0
+"Modern Pentathlon",242.34693877551,0
+"Modern Pentathlon",247.448979591837,0
+"Modern Pentathlon",2.55102040816327,0
+"Rowing",2.55102040816327,0
+"Rowing",7.6530612244898,0
+"Rowing",12.7551020408163,0
+"Rowing",17.8571428571429,0
+"Rowing",22.9591836734694,0
+"Rowing",28.0612244897959,0
+"Rowing",33.1632653061224,0
+"Rowing",38.265306122449,0
+"Rowing",43.3673469387755,0
+"Rowing",48.469387755102,7
+"Rowing",53.5714285714286,12
+"Rowing",58.6734693877551,33
+"Rowing",63.7755102040816,4
+"Rowing",68.8775510204082,62
+"Rowing",73.9795918367347,132
+"Rowing",79.0816326530612,33
+"Rowing",84.1836734693878,22
+"Rowing",89.2857142857143,57
+"Rowing",94.3877551020408,86
+"Rowing",99.4897959183673,52
+"Rowing",104.591836734694,15
+"Rowing",109.69387755102,2
+"Rowing",114.795918367347,0
+"Rowing",119.897959183673,0
+"Rowing",125,0
+"Rowing",130.102040816327,0
+"Rowing",135.204081632653,0
+"Rowing",140.30612244898,0
+"Rowing",145.408163265306,0
+"Rowing",150.510204081633,0
+"Rowing",155.612244897959,0
+"Rowing",160.714285714286,0
+"Rowing",165.816326530612,0
+"Rowing",170.918367346939,0
+"Rowing",176.020408163265,0
+"Rowing",181.122448979592,0
+"Rowing",186.224489795918,0
+"Rowing",191.326530612245,0
+"Rowing",196.428571428571,0
+"Rowing",201.530612244898,0
+"Rowing",206.632653061224,0
+"Rowing",211.734693877551,0
+"Rowing",216.836734693878,0
+"Rowing",221.938775510204,0
+"Rowing",227.040816326531,0
+"Rowing",232.142857142857,0
+"Rowing",237.244897959184,0
+"Rowing",242.34693877551,0
+"Rowing",247.448979591837,0
+"Rowing",2.55102040816327,0
+"Sailing",2.55102040816327,0
+"Sailing",7.6530612244898,0
+"Sailing",12.7551020408163,0
+"Sailing",17.8571428571429,0
+"Sailing",22.9591836734694,0
+"Sailing",28.0612244897959,0
+"Sailing",33.1632653061224,0
+"Sailing",38.265306122449,0
+"Sailing",43.3673469387755,0
+"Sailing",48.469387755102,3
+"Sailing",53.5714285714286,9
+"Sailing",58.6734693877551,38
+"Sailing",63.7755102040816,45
+"Sailing",68.8775510204082,71
+"Sailing",73.9795918367347,57
+"Sailing",79.0816326530612,42
+"Sailing",84.1836734693878,39
+"Sailing",89.2857142857143,8
+"Sailing",94.3877551020408,11
+"Sailing",99.4897959183673,20
+"Sailing",104.591836734694,5
+"Sailing",109.69387755102,3
+"Sailing",114.795918367347,0
+"Sailing",119.897959183673,0
+"Sailing",125,0
+"Sailing",130.102040816327,0
+"Sailing",135.204081632653,0
+"Sailing",140.30612244898,0
+"Sailing",145.408163265306,0
+"Sailing",150.510204081633,0
+"Sailing",155.612244897959,0
+"Sailing",160.714285714286,0
+"Sailing",165.816326530612,0
+"Sailing",170.918367346939,0
+"Sailing",176.020408163265,0
+"Sailing",181.122448979592,0
+"Sailing",186.224489795918,0
+"Sailing",191.326530612245,0
+"Sailing",196.428571428571,0
+"Sailing",201.530612244898,0
+"Sailing",206.632653061224,0
+"Sailing",211.734693877551,0
+"Sailing",216.836734693878,0
+"Sailing",221.938775510204,0
+"Sailing",227.040816326531,0
+"Sailing",232.142857142857,0
+"Sailing",237.244897959184,0
+"Sailing",242.34693877551,0
+"Sailing",247.448979591837,0
+"Sailing",2.55102040816327,0
+"Shooting",2.55102040816327,0
+"Shooting",7.6530612244898,0
+"Shooting",12.7551020408163,0
+"Shooting",17.8571428571429,0
+"Shooting",22.9591836734694,0
+"Shooting",28.0612244897959,0
+"Shooting",33.1632653061224,0
+"Shooting",38.265306122449,0
+"Shooting",43.3673469387755,0
+"Shooting",48.469387755102,13
+"Shooting",53.5714285714286,40
+"Shooting",58.6734693877551,32
+"Shooting",63.7755102040816,39
+"Shooting",68.8775510204082,44
+"Shooting",73.9795918367347,48
+"Shooting",79.0816326530612,30
+"Shooting",84.1836734693878,36
+"Shooting",89.2857142857143,24
+"Shooting",94.3877551020408,12
+"Shooting",99.4897959183673,9
+"Shooting",104.591836734694,7
+"Shooting",109.69387755102,0
+"Shooting",114.795918367347,2
+"Shooting",119.897959183673,2
+"Shooting",125,0
+"Shooting",130.102040816327,1
+"Shooting",135.204081632653,0
+"Shooting",140.30612244898,0
+"Shooting",145.408163265306,0
+"Shooting",150.510204081633,0
+"Shooting",155.612244897959,0
+"Shooting",160.714285714286,0
+"Shooting",165.816326530612,0
+"Shooting",170.918367346939,0
+"Shooting",176.020408163265,0
+"Shooting",181.122448979592,0
+"Shooting",186.224489795918,0
+"Shooting",191.326530612245,0
+"Shooting",196.428571428571,0
+"Shooting",201.530612244898,0
+"Shooting",206.632653061224,0
+"Shooting",211.734693877551,0
+"Shooting",216.836734693878,0
+"Shooting",221.938775510204,0
+"Shooting",227.040816326531,0
+"Shooting",232.142857142857,0
+"Shooting",237.244897959184,0
+"Shooting",242.34693877551,0
+"Shooting",247.448979591837,0
+"Shooting",2.55102040816327,0
+"Swimming",2.55102040816327,0
+"Swimming",7.6530612244898,0
+"Swimming",12.7551020408163,0
+"Swimming",17.8571428571429,0
+"Swimming",22.9591836734694,0
+"Swimming",28.0612244897959,0
+"Swimming",33.1632653061224,0
+"Swimming",38.265306122449,1
+"Swimming",43.3673469387755,1
+"Swimming",48.469387755102,12
+"Swimming",53.5714285714286,65
+"Swimming",58.6734693877551,108
+"Swimming",63.7755102040816,133
+"Swimming",68.8775510204082,118
+"Swimming",73.9795918367347,130
+"Swimming",79.0816326530612,105
+"Swimming",84.1836734693878,102
+"Swimming",89.2857142857143,52
+"Swimming",94.3877551020408,22
+"Swimming",99.4897959183673,10
+"Swimming",104.591836734694,2
+"Swimming",109.69387755102,1
+"Swimming",114.795918367347,0
+"Swimming",119.897959183673,0
+"Swimming",125,0
+"Swimming",130.102040816327,0
+"Swimming",135.204081632653,0
+"Swimming",140.30612244898,0
+"Swimming",145.408163265306,0
+"Swimming",150.510204081633,0
+"Swimming",155.612244897959,0
+"Swimming",160.714285714286,0
+"Swimming",165.816326530612,0
+"Swimming",170.918367346939,0
+"Swimming",176.020408163265,0
+"Swimming",181.122448979592,0
+"Swimming",186.224489795918,0
+"Swimming",191.326530612245,0
+"Swimming",196.428571428571,0
+"Swimming",201.530612244898,0
+"Swimming",206.632653061224,0
+"Swimming",211.734693877551,0
+"Swimming",216.836734693878,0
+"Swimming",221.938775510204,0
+"Swimming",227.040816326531,0
+"Swimming",232.142857142857,0
+"Swimming",237.244897959184,0
+"Swimming",242.34693877551,0
+"Swimming",247.448979591837,0
+"Swimming",2.55102040816327,0
+"Table Tennis",2.55102040816327,0
+"Table Tennis",7.6530612244898,0
+"Table Tennis",12.7551020408163,0
+"Table Tennis",17.8571428571429,0
+"Table Tennis",22.9591836734694,0
+"Table Tennis",28.0612244897959,0
+"Table Tennis",33.1632653061224,0
+"Table Tennis",38.265306122449,0
+"Table Tennis",43.3673469387755,1
+"Table Tennis",48.469387755102,11
+"Table Tennis",53.5714285714286,20
+"Table Tennis",58.6734693877551,26
+"Table Tennis",63.7755102040816,27
+"Table Tennis",68.8775510204082,22
+"Table Tennis",73.9795918367347,21
+"Table Tennis",79.0816326530612,12
+"Table Tennis",84.1836734693878,14
+"Table Tennis",89.2857142857143,2
+"Table Tennis",94.3877551020408,1
+"Table Tennis",99.4897959183673,0
+"Table Tennis",104.591836734694,0
+"Table Tennis",109.69387755102,0
+"Table Tennis",114.795918367347,0
+"Table Tennis",119.897959183673,0
+"Table Tennis",125,0
+"Table Tennis",130.102040816327,0
+"Table Tennis",135.204081632653,0
+"Table Tennis",140.30612244898,0
+"Table Tennis",145.408163265306,0
+"Table Tennis",150.510204081633,0
+"Table Tennis",155.612244897959,0
+"Table Tennis",160.714285714286,0
+"Table Tennis",165.816326530612,0
+"Table Tennis",170.918367346939,0
+"Table Tennis",176.020408163265,0
+"Table Tennis",181.122448979592,0
+"Table Tennis",186.224489795918,0
+"Table Tennis",191.326530612245,0
+"Table Tennis",196.428571428571,0
+"Table Tennis",201.530612244898,0
+"Table Tennis",206.632653061224,0
+"Table Tennis",211.734693877551,0
+"Table Tennis",216.836734693878,0
+"Table Tennis",221.938775510204,0
+"Table Tennis",227.040816326531,0
+"Table Tennis",232.142857142857,0
+"Table Tennis",237.244897959184,0
+"Table Tennis",242.34693877551,0
+"Table Tennis",247.448979591837,0
+"Table Tennis",2.55102040816327,0
+"Tennis",2.55102040816327,0
+"Tennis",7.6530612244898,0
+"Tennis",12.7551020408163,0
+"Tennis",17.8571428571429,0
+"Tennis",22.9591836734694,0
+"Tennis",28.0612244897959,0
+"Tennis",33.1632653061224,0
+"Tennis",38.265306122449,0
+"Tennis",43.3673469387755,0
+"Tennis",48.469387755102,0
+"Tennis",53.5714285714286,6
+"Tennis",58.6734693877551,19
+"Tennis",63.7755102040816,26
+"Tennis",68.8775510204082,25
+"Tennis",73.9795918367347,19
+"Tennis",79.0816326530612,26
+"Tennis",84.1836734693878,18
+"Tennis",89.2857142857143,13
+"Tennis",94.3877551020408,3
+"Tennis",99.4897959183673,1
+"Tennis",104.591836734694,1
+"Tennis",109.69387755102,0
+"Tennis",114.795918367347,0
+"Tennis",119.897959183673,0
+"Tennis",125,0
+"Tennis",130.102040816327,0
+"Tennis",135.204081632653,0
+"Tennis",140.30612244898,0
+"Tennis",145.408163265306,0
+"Tennis",150.510204081633,0
+"Tennis",155.612244897959,0
+"Tennis",160.714285714286,0
+"Tennis",165.816326530612,0
+"Tennis",170.918367346939,0
+"Tennis",176.020408163265,0
+"Tennis",181.122448979592,0
+"Tennis",186.224489795918,0
+"Tennis",191.326530612245,0
+"Tennis",196.428571428571,0
+"Tennis",201.530612244898,0
+"Tennis",206.632653061224,0
+"Tennis",211.734693877551,0
+"Tennis",216.836734693878,0
+"Tennis",221.938775510204,0
+"Tennis",227.040816326531,0
+"Tennis",232.142857142857,0
+"Tennis",237.244897959184,0
+"Tennis",242.34693877551,0
+"Tennis",247.448979591837,0
+"Tennis",2.55102040816327,0
+"Triathlon",2.55102040816327,0
+"Triathlon",7.6530612244898,0
+"Triathlon",12.7551020408163,0
+"Triathlon",17.8571428571429,0
+"Triathlon",22.9591836734694,0
+"Triathlon",28.0612244897959,0
+"Triathlon",33.1632653061224,0
+"Triathlon",38.265306122449,0
+"Triathlon",43.3673469387755,0
+"Triathlon",48.469387755102,14
+"Triathlon",53.5714285714286,20
+"Triathlon",58.6734693877551,22
+"Triathlon",63.7755102040816,16
+"Triathlon",68.8775510204082,18
+"Triathlon",73.9795918367347,11
+"Triathlon",79.0816326530612,2
+"Triathlon",84.1836734693878,0
+"Triathlon",89.2857142857143,0
+"Triathlon",94.3877551020408,0
+"Triathlon",99.4897959183673,0
+"Triathlon",104.591836734694,0
+"Triathlon",109.69387755102,0
+"Triathlon",114.795918367347,0
+"Triathlon",119.897959183673,0
+"Triathlon",125,0
+"Triathlon",130.102040816327,0
+"Triathlon",135.204081632653,0
+"Triathlon",140.30612244898,0
+"Triathlon",145.408163265306,0
+"Triathlon",150.510204081633,0
+"Triathlon",155.612244897959,0
+"Triathlon",160.714285714286,0
+"Triathlon",165.816326530612,0
+"Triathlon",170.918367346939,0
+"Triathlon",176.020408163265,0
+"Triathlon",181.122448979592,0
+"Triathlon",186.224489795918,0
+"Triathlon",191.326530612245,0
+"Triathlon",196.428571428571,0
+"Triathlon",201.530612244898,0
+"Triathlon",206.632653061224,0
+"Triathlon",211.734693877551,0
+"Triathlon",216.836734693878,0
+"Triathlon",221.938775510204,0
+"Triathlon",227.040816326531,0
+"Triathlon",232.142857142857,0
+"Triathlon",237.244897959184,0
+"Triathlon",242.34693877551,0
+"Triathlon",247.448979591837,0
+"Triathlon",2.55102040816327,0
+"Volleyball",2.55102040816327,0
+"Volleyball",7.6530612244898,0
+"Volleyball",12.7551020408163,0
+"Volleyball",17.8571428571429,0
+"Volleyball",22.9591836734694,0
+"Volleyball",28.0612244897959,0
+"Volleyball",33.1632653061224,0
+"Volleyball",38.265306122449,0
+"Volleyball",43.3673469387755,0
+"Volleyball",48.469387755102,1
+"Volleyball",53.5714285714286,7
+"Volleyball",58.6734693877551,15
+"Volleyball",63.7755102040816,24
+"Volleyball",68.8775510204082,39
+"Volleyball",73.9795918367347,35
+"Volleyball",79.0816326530612,29
+"Volleyball",84.1836734693878,31
+"Volleyball",89.2857142857143,27
+"Volleyball",94.3877551020408,29
+"Volleyball",99.4897959183673,18
+"Volleyball",104.591836734694,11
+"Volleyball",109.69387755102,3
+"Volleyball",114.795918367347,2
+"Volleyball",119.897959183673,0
+"Volleyball",125,0
+"Volleyball",130.102040816327,0
+"Volleyball",135.204081632653,0
+"Volleyball",140.30612244898,0
+"Volleyball",145.408163265306,0
+"Volleyball",150.510204081633,0
+"Volleyball",155.612244897959,0
+"Volleyball",160.714285714286,0
+"Volleyball",165.816326530612,0
+"Volleyball",170.918367346939,0
+"Volleyball",176.020408163265,0
+"Volleyball",181.122448979592,0
+"Volleyball",186.224489795918,0
+"Volleyball",191.326530612245,0
+"Volleyball",196.428571428571,0
+"Volleyball",201.530612244898,0
+"Volleyball",206.632653061224,0
+"Volleyball",211.734693877551,0
+"Volleyball",216.836734693878,0
+"Volleyball",221.938775510204,0
+"Volleyball",227.040816326531,0
+"Volleyball",232.142857142857,0
+"Volleyball",237.244897959184,0
+"Volleyball",242.34693877551,0
+"Volleyball",247.448979591837,0
+"Volleyball",2.55102040816327,0
+"Water Polo",2.55102040816327,0
+"Water Polo",7.6530612244898,0
+"Water Polo",12.7551020408163,0
+"Water Polo",17.8571428571429,0
+"Water Polo",22.9591836734694,0
+"Water Polo",28.0612244897959,0
+"Water Polo",33.1632653061224,0
+"Water Polo",38.265306122449,0
+"Water Polo",43.3673469387755,0
+"Water Polo",48.469387755102,2
+"Water Polo",53.5714285714286,5
+"Water Polo",58.6734693877551,9
+"Water Polo",63.7755102040816,25
+"Water Polo",68.8775510204082,28
+"Water Polo",73.9795918367347,14
+"Water Polo",79.0816326530612,13
+"Water Polo",84.1836734693878,19
+"Water Polo",89.2857142857143,29
+"Water Polo",94.3877551020408,38
+"Water Polo",99.4897959183673,31
+"Water Polo",104.591836734694,18
+"Water Polo",109.69387755102,8
+"Water Polo",114.795918367347,9
+"Water Polo",119.897959183673,1
+"Water Polo",125,0
+"Water Polo",130.102040816327,0
+"Water Polo",135.204081632653,0
+"Water Polo",140.30612244898,0
+"Water Polo",145.408163265306,0
+"Water Polo",150.510204081633,0
+"Water Polo",155.612244897959,0
+"Water Polo",160.714285714286,0
+"Water Polo",165.816326530612,0
+"Water Polo",170.918367346939,0
+"Water Polo",176.020408163265,0
+"Water Polo",181.122448979592,0
+"Water Polo",186.224489795918,0
+"Water Polo",191.326530612245,0
+"Water Polo",196.428571428571,0
+"Water Polo",201.530612244898,0
+"Water Polo",206.632653061224,0
+"Water Polo",211.734693877551,0
+"Water Polo",216.836734693878,0
+"Water Polo",221.938775510204,0
+"Water Polo",227.040816326531,0
+"Water Polo",232.142857142857,0
+"Water Polo",237.244897959184,0
+"Water Polo",242.34693877551,0
+"Water Polo",247.448979591837,0
+"Water Polo",2.55102040816327,0
+"Weightlifting",2.55102040816327,0
+"Weightlifting",7.6530612244898,0
+"Weightlifting",12.7551020408163,0
+"Weightlifting",17.8571428571429,0
+"Weightlifting",22.9591836734694,0
+"Weightlifting",28.0612244897959,0
+"Weightlifting",33.1632653061224,0
+"Weightlifting",38.265306122449,0
+"Weightlifting",43.3673469387755,0
+"Weightlifting",48.469387755102,13
+"Weightlifting",53.5714285714286,34
+"Weightlifting",58.6734693877551,24
+"Weightlifting",63.7755102040816,19
+"Weightlifting",68.8775510204082,40
+"Weightlifting",73.9795918367347,18
+"Weightlifting",79.0816326530612,10
+"Weightlifting",84.1836734693878,22
+"Weightlifting",89.2857142857143,4
+"Weightlifting",94.3877551020408,20
+"Weightlifting",99.4897959183673,2
+"Weightlifting",104.591836734694,22
+"Weightlifting",109.69387755102,1
+"Weightlifting",114.795918367347,1
+"Weightlifting",119.897959183673,0
+"Weightlifting",125,0
+"Weightlifting",130.102040816327,3
+"Weightlifting",135.204081632653,0
+"Weightlifting",140.30612244898,5
+"Weightlifting",145.408163265306,2
+"Weightlifting",150.510204081633,2
+"Weightlifting",155.612244897959,3
+"Weightlifting",160.714285714286,0
+"Weightlifting",165.816326530612,1
+"Weightlifting",170.918367346939,1
+"Weightlifting",176.020408163265,0
+"Weightlifting",181.122448979592,0
+"Weightlifting",186.224489795918,0
+"Weightlifting",191.326530612245,0
+"Weightlifting",196.428571428571,0
+"Weightlifting",201.530612244898,0
+"Weightlifting",206.632653061224,0
+"Weightlifting",211.734693877551,0
+"Weightlifting",216.836734693878,0
+"Weightlifting",221.938775510204,0
+"Weightlifting",227.040816326531,0
+"Weightlifting",232.142857142857,0
+"Weightlifting",237.244897959184,0
+"Weightlifting",242.34693877551,0
+"Weightlifting",247.448979591837,0
+"Weightlifting",2.55102040816327,0
+"Wrestling",2.55102040816327,0
+"Wrestling",7.6530612244898,0
+"Wrestling",12.7551020408163,0
+"Wrestling",17.8571428571429,0
+"Wrestling",22.9591836734694,0
+"Wrestling",28.0612244897959,0
+"Wrestling",33.1632653061224,0
+"Wrestling",38.265306122449,0
+"Wrestling",43.3673469387755,0
+"Wrestling",48.469387755102,16
+"Wrestling",53.5714285714286,51
+"Wrestling",58.6734693877551,31
+"Wrestling",63.7755102040816,49
+"Wrestling",68.8775510204082,2
+"Wrestling",73.9795918367347,54
+"Wrestling",79.0816326530612,0
+"Wrestling",84.1836734693878,33
+"Wrestling",89.2857142857143,2
+"Wrestling",94.3877551020408,30
+"Wrestling",99.4897959183673,2
+"Wrestling",104.591836734694,0
+"Wrestling",109.69387755102,4
+"Wrestling",114.795918367347,4
+"Wrestling",119.897959183673,24
+"Wrestling",125,0
+"Wrestling",130.102040816327,0
+"Wrestling",135.204081632653,0
+"Wrestling",140.30612244898,0
+"Wrestling",145.408163265306,0
+"Wrestling",150.510204081633,0
+"Wrestling",155.612244897959,0
+"Wrestling",160.714285714286,0
+"Wrestling",165.816326530612,0
+"Wrestling",170.918367346939,0
+"Wrestling",176.020408163265,0
+"Wrestling",181.122448979592,0
+"Wrestling",186.224489795918,0
+"Wrestling",191.326530612245,0
+"Wrestling",196.428571428571,0
+"Wrestling",201.530612244898,0
+"Wrestling",206.632653061224,0
+"Wrestling",211.734693877551,0
+"Wrestling",216.836734693878,0
+"Wrestling",221.938775510204,0
+"Wrestling",227.040816326531,0
+"Wrestling",232.142857142857,0
+"Wrestling",237.244897959184,0
+"Wrestling",242.34693877551,0
+"Wrestling",247.448979591837,0
+"Wrestling",2.55102040816327,0
