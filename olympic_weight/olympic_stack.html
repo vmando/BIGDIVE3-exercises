@@ -31,6 +31,112 @@
             
             // stack graph logic here
             
+                var data = d3.csv('data/hist.csv', function(data){
+                
+                // And then was the data...
+                
+                var sportWeight = d3.nest()
+                    .key(function(d){
+                        return d.Sport;
+                    })
+                    .entries(data);
+                
+                //sportWeight.forEach.remove(Sport)
+                
+                console.log(sportWeight);
+                
+                minWeight = d3.min(data, function(d){
+                    return d.breaks;
+                });
+                
+                maxWeight = d3.max(data, function(d){
+                    return d.breaks;
+                });
+                
+                console.log([minWeight, maxWeight]);
+                
+                //FIXIT!!!
+                mapx = d3.scale.linear()
+                    .domain([30,150])
+                    .range([0,w])
+                
+                maxCount = d3.max(data, function(d){
+                    return d.y;
+                });
+                
+                console.log(maxCount)
+                
+                // FIXIT!
+                mapy = d3.scale.linear()
+                    //.domain([0,maxCount])
+                    .domain([0,500])
+                    .range([0,h])
+                
+                var stack = d3.layout.stack()
+                    .values(function(d){
+						return d.values;
+					})
+                
+                // transform the dataset
+                var weightStack = stack(sportWeight);
+                
+                console.log(weightStack)
+
+                // create the area path generator
+                var area = d3.svg.area()
+                            .x(function(d){
+                                return mapx(d.x);
+                            })
+                            .y0(function(d){
+                                return mapy(d.y0);
+                            })
+                            .y1(function(d){
+                                return mapy(d.y)+mapy(d.y0);
+                            })
+                            .interpolate('monotone')
+
+                // some colors
+                var cols = d3.scale.category20()
+
+
+                // draw the paths
+                var graph = svg.selectAll('path')
+                    .data(weightStack)
+                    .enter()
+                    .append('path')
+                    .attr('d', function(d){
+                        return area(d.values)
+                    })
+                    .style('fill', function(d, i){
+                        return cols(i)
+                    })
+						
+                
+
+                var format = d3.format('.2f')
+
+                var axisX = d3.svg.axis()
+                    .scale(mapx)
+                    .ticks(5)
+                    .tickSize(1)
+                    .tickSubdivide(true)
+                    .tickFormat(format)
+
+                var axisY = d3.svg.axis()
+                    .scale(mapy)
+                    .orient('right')
+                    .ticks(5)
+                    .tickSize(1)
+                    .tickSubdivide(true)
+                    .tickFormat(format)
+
+
+                svg.append('g').call(axisX)
+                svg.append('g').call(axisY)
+            
+            ///////////////////////////////////
+            
+            
             function update_widgets(widget_nations){
                 // Select all present and future <g class="widget"> objects
                 var widgets = svg.selectAll('g.widget')
