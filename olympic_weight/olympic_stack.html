@@ -25,9 +25,7 @@
             
             svg.attr('height',h)
             svg.attr('width',h)
-            
-            // Here we define a_group_of_widgets
-            
+                        
             var widgets = svg.selectAll('g.widget') // Select all present and future <g class="widget"> objects
                 .data(['Italy', 'France'])
              
@@ -37,7 +35,11 @@
             widgets.enter() // if not exists then create
                 .append('g')
                 .attr('class', 'widget')
-                // .append(a_group_of_widgets)
+            
+            widgets.append('rect')
+                .attr('width', 50)
+                .attr('height', 20)
+                .attr('fill', 'orange')
             
         </script>
     </body>
