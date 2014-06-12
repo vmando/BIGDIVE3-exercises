@@ -19,7 +19,9 @@
         
         
         <script>
-        
+            // This looks like a good example: http://bl.ocks.org/mbostock/3020685
+            
+            
             // Select the first (and hopefully the only) <svg class="stack"> element
             var svg = d3.select('svg.stack');
             
@@ -35,8 +37,8 @@
                 
                 // And then was the data...
                 data.forEach(function(d){ 
-                    d.x = +d.x;
-                    d.y = +d.y;
+                    d.x = +d.x; // casting to integer
+                    d.y = +d.y; // casting to integer
                 });
                     
                 var sportWeight = d3.nest()
@@ -152,7 +154,12 @@
             
             ///////////////////////////////////
             
-            
+            // Importing the data from scratch
+            });
+            var data = d3.csv('data/olympics_2012.csv', function(data){
+            ///////////////
+                
+                
             function update_widgets(widget_nations){
                 // Select all present and future <g class="widget"> objects
                 var widgets = svg.selectAll('g.widget')
