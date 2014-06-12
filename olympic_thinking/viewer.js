@@ -1,18 +1,16 @@
-            function nesting (data){
-                var newdata = d3.nest()
-                    .key(function(d) { return d.Sport; })
-                    .sortKeys(d3.ascending)
-                    .key(function(d) { 
-                        return 10*Math.floor(d.Age/10); 
-                    })
-                    .sortKeys(d3.ascending)
-                    .key(function(d) { return d.Sex; })
-                    .entries(data);
-                return newdata;
-            }
-            
-            
-            
+function nesting (data){
+    var newdata = d3.nest()
+        .key(function(d) { return d.Sport; })
+        .sortKeys(d3.ascending)
+        .key(function(d) { 
+            return 10*Math.floor(d.Age/10); 
+        })
+        .sortKeys(d3.ascending)
+        .key(function(d) { return d.Sex; })
+        .entries(data);
+    return newdata;
+}
+           
 function start() {
     
     var CHART_X = 50;
@@ -23,11 +21,15 @@ function start() {
     
     var svg = d3.select('svg');
 
-    d3.csv('olympics_2012.csv', function (data) {
+    d3.csv('olympics_2012.csv', function (raw_data) {
+        
+        var nested_data = nesting(raw_data);
+        console.log(nested_data);
+        
         var age_range = [10, 100];
         var sport_names = d3.nest()
             .key(function (d) { return d.Sport; })
-            .entries(data);
+            .entries(raw_data);
         
         var chart = svg.append('g')
             .attr('class', 'chart')
