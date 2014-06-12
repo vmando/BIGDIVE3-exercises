@@ -26,13 +26,15 @@
             svg.attr('height',h)
             svg.attr('width',h)
             
-             var widgets = svg.selectAll('g.widget') // Select all present and future <g class="widget"> objects
+            // Here we define a_group_of_widgets
+            
+            var widgets = svg.selectAll('g.widget') // Select all present and future <g class="widget"> objects
                 .data(['Italy', 'France'])
              
-             widgets.exit() // if exists in the canvas and we don't want it anymore
+            widgets.exit() // if exists in the canvas and we don't want it anymore
                 .remove()
              
-             widgets.enter() // if not exists then create
+            widgets.enter() // if not exists then create
                 .append('g')
                 .attr('class', 'widget')
                 // .append(a_group_of_widgets)
