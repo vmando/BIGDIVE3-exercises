@@ -22,7 +22,7 @@ function start() {
 
         // axis X
         var scale_x = d3.scale.linear()
-            .domain([0, sport_names.length])
+            .domain([0, sport_names.length - 1])
             .range([0, INNER_WIDTH]);
         var axis_x = d3.svg.axis()
             .scale(scale_x)
@@ -32,7 +32,7 @@ function start() {
             .tickFormat('');
         var axis_x_g = chart.append('g')
             .attr('class', 'axis_x')
-            .attr('transform', 'translate(0, ' + INNER_HEIGHT + ')');
+            .attr('transform', 'translate(0, ' + (INNER_HEIGHT + AXIS_MARGIN) + ')');
         axis_x_g.call(axis_x);
         axis_x_g.selectAll('text.sport')
             .data(sport_names)
@@ -40,7 +40,7 @@ function start() {
             .append('text')
             .attr('text-anchor', 'end')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i + 0.5) + ',20),rotate(-45)'
+                return 'translate(' + scale_x(i + 0.3) + ',20),rotate(-45)'
             })
             .attr('class', 'sport')
             .text(function (d, i) { return d.key; })
@@ -57,6 +57,7 @@ function start() {
         
         chart.append('g')
             .attr('class', 'axis_y')
+            .attr('transform', 'translate(' + (-AXIS_MARGIN) + ',0)')
             .call(axis_y);
     });
 };
