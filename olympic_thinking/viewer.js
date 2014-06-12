@@ -26,7 +26,7 @@ function start() {
         var nested_data = nesting(raw_data);
         console.log(nested_data);
         
-        var age_range = [10, 100];
+        var age_range = [10, 80];
         var sport_names = d3.nest()
             .key(function (d) { return d.Sport; })
             .entries(raw_data);
@@ -75,6 +75,31 @@ function start() {
             .attr('class', 'axis_y')
             .attr('transform', 'translate(' + (-AXIS_MARGIN) + ',0)')
             .call(axis_y);
+        
+        var sports = chart.selectAll('g.cluster-column')
+            .data(nested_data)
+            .enter()
+            .append('g').attr('class', 'cluster-column')
+            .attr('transform', function (d, i) {
+                return 'translate(' + scale_x(i) + ', 0)';
+            });
+        
+        var ages = sports.selectAll('g.cluster')
+            .data(function(d){
+                 return d.values;
+            })
+            .enter()
+            .append('g')
+            .attr('class', 'cluster')
+            .attr('transform', function (d, i) {
+                return 'translate(0, ' + scale_y(d.key) + ')';
+            })
+            .append('rect')
+            .attr('x', -5)
+            .attr('y', -5)
+            .attr('width', 10)
+            .attr('height', 10)
+        ;
     });
 };
 
