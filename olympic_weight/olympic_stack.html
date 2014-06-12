@@ -15,16 +15,27 @@
         <svg class='stack'>
         </svg>
         
+        
         <script>
         
-            var svg = d3.select('svg');
+            var svg = d3.select('svg.stack'); // selects the first (and hopefully the only) <svg class="stack"> element
             
-            var h = 400;
-            var w = 600;
+            var h = 400; // canvas height
+            var w = 600; // canvas width
             
             svg.attr('height',h)
             svg.attr('width',h)
             
+             var widgets = svg.selectAll('g.widget') // Select all present and future <g class="widget"> objects
+                .data(['Italy', 'France'])
+             
+             widgets.exit() // if exists in the canvas and we don't want it anymore
+                .remove()
+             
+             widgets.enter() // if not exists then create
+                .append('g')
+                .attr('class', 'widget')
+                // .append(a_group_of_widgets)
             
         </script>
     </body>
