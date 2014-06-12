@@ -46,11 +46,11 @@
                 console.log(sportWeight);
                 
                 minWeight = d3.min(data, function(d){
-                    return d.breaks;
+                    return d.x;
                 });
                 
                 maxWeight = d3.max(data, function(d){
-                    return d.breaks;
+                    return d.x;
                 });
                 
                 console.log([minWeight, maxWeight]);
@@ -134,6 +134,7 @@
                 svg.append('g').call(axisX)
                 svg.append('g').call(axisY)
             
+            
             ///////////////////////////////////
             
             
@@ -175,7 +176,7 @@
                     update_widgets(widget_nations)
                     })
             
-            
+                });
         </script>
     </body>
 </html>
