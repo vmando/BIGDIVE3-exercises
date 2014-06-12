@@ -35,8 +35,8 @@
                 
                 // And then was the data...
                 data.forEach(function(d){ 
-                    d.x = +d.x;
-                    d.y = +d.y;
+                    d.x = +d.x; // casting to integer
+                    d.y = +d.y; // casting to integer
                 });
                     
                 var sportWeight = d3.nest()
