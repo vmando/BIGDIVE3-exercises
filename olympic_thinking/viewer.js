@@ -27,8 +27,11 @@ function start() {
         var axis_x = d3.svg.axis()
             .scale(scale_x)
             .orient('bottom')
-            .tickSize(0, 10);
+            .ticks(sport_names.length)
+            .tickSize(10)
+            .tickFormat('');
         var axis_x_g = chart.append('g')
+            .attr('class', 'axis_x')
             .attr('transform', 'translate(0, ' + INNER_HEIGHT + ')');
         axis_x_g.call(axis_x);
         axis_x_g.selectAll('text.sport')
@@ -53,6 +56,7 @@ function start() {
             .orient('left');
         
         chart.append('g')
+            .attr('class', 'axis_y')
             .call(axis_y);
     });
 };

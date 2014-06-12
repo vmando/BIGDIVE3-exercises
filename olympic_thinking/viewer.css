@@ -1,0 +1,9 @@
+.axis_x .domain,
+.axis_y .domain {
+    fill: none;
+    stroke: black;
+}
+
+.axis_x line {
+    stroke: black;
+}
