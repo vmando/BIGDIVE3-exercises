@@ -11,7 +11,9 @@
         
     </head>
     <body>
-        
+        <button class="widget_trigger" id="italy">Show Italy</button>
+        <button class="widget_trigger" id="france">Show France</button>
+        <button class="widget_reset">Reset</button>
         <svg class='stack'>
         </svg>
         
@@ -29,25 +31,44 @@
             
             // stack graph logic here
             
+            function update_widgets(widget_nations){
+                // Select all present and future <g class="widget"> objects
+                var widgets = svg.selectAll('g.widget')
+                    .data(widget_nations)
+
+                // if widget exists in the canvas and we don't want it anymore
+                widgets.exit()
+                    .remove()
+
+                // if not exists then create
+                widgets.enter()
+                    .append('g')
+                    .attr('class', 'widget')
+
+                // Append a nice rectangle in every widget
+                widgets.append('rect')
+                    .attr('width', 50)
+                    .attr('height', 20)
+                    .attr('fill', 'orange')
+            }
             
-            // Select all present and future <g class="widget"> objects
-            var widgets = svg.selectAll('g.widget')
-                .data(['Italy', 'France'])
+            // This array contains the objects representing the nations the user selected.
+            var widget_nations = []
             
-            // if widget exists in the canvas and we don't want it anymore
-            widgets.exit()
-                .remove()
+            // Temporary trigger for widegts
+            d3.selectAll('.widget_trigger')
+                .on('click', function(){
+                    // widget_nations.push() // Later on, object should be directly passed as argument
+                    // update_widgets(widget_nations)
+                    console.log(this.id)
+                    })
+
+            d3.select('.widget_reset')
+                .on('click', function(){
+                    widget_nations = []
+                    update_widgets(widget_nations)
+                    })
             
-            // if not exists then create
-            widgets.enter()
-                .append('g')
-                .attr('class', 'widget')
-            
-            // Append a nice rectangle in every widget
-            widgets.append('rect')
-                .attr('width', 50)
-                .attr('height', 20)
-                .attr('fill', 'orange')
             
         </script>
     </body>
