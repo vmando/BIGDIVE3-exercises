@@ -1,6 +1,17 @@
+function adjusted_sport_names(d){
+        var str = ""
+        if (d.Sport.indexOf("Cycling") > -1) {
+            str = "Cycling"
+        }    
+        else {str = d.Sport}
+        return str;
+}
+
 function nesting (data){
     var newdata = d3.nest()
-        .key(function(d) { return d.Sport; })
+        .key(function(d){
+            return adjusted_sport_names(d);
+        })
         .sortKeys(d3.ascending)
         .key(function(d) { 
             return 10*Math.floor(d.Age/10); 
@@ -10,7 +21,8 @@ function nesting (data){
         .entries(data);
     return newdata;
 }
-           
+
+
 function start() {
     
     var CHART_X = 50;
@@ -28,7 +40,9 @@ function start() {
         
         var age_range = [10, 70];
         var sport_names = d3.nest()
-            .key(function (d) { return d.Sport; })
+            .key(function(d){
+                return adjusted_sport_names(d);
+            })
             .entries(raw_data);
         
         var chart = svg.append('g')
