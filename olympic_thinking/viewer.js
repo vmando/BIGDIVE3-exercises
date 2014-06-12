@@ -1,4 +1,18 @@
-
+            function nesting (data){
+                var newdata = d3.nest()
+                    .key(function(d) { return d.Sport; })
+                    .sortKeys(d3.ascending)
+                    .key(function(d) { 
+                        return 10*Math.floor(d.Age/10); 
+                    })
+                    .sortKeys(d3.ascending)
+                    .key(function(d) { return d.Sex; })
+                    .entries(data);
+                return newdata;
+            }
+            
+            
+            
 function start() {
     
     var CHART_X = 50;
