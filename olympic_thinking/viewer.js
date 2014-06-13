@@ -1,10 +1,11 @@
 function adjusted_sport_names(d){
-        var str = ""
         if (d.Sport.indexOf("Cycling") > -1) {
-            str = "Cycling"
-        }    
-        else {str = d.Sport}
-        return str;
+            return "Cycling"
+        } else if (d.Sport == "Athletics, Triathlon") {
+            return "Athletics";
+        } else {
+            return d.Sport;
+        }
 }
 
 function nesting (data){
@@ -14,7 +15,7 @@ function nesting (data){
         })
         .sortKeys(d3.ascending)
         .key(function(d) { 
-            return d.Age; 
+            return d.Age;
         })
         .sortKeys(d3.ascending)
         .key(function(d) { return d.Sex; })
@@ -28,7 +29,7 @@ function start() {
     var CHART_X = 50;
     var CHART_Y = 20;
     var INNER_WIDTH = 900;
-    var INNER_HEIGHT = 400;
+    var INNER_HEIGHT = 550;
     var AXIS_MARGIN = 10;
     
     var svg = d3.select('svg');
@@ -36,9 +37,9 @@ function start() {
     d3.csv('olympics_2012.csv', function (raw_data) {
         
         var nested_data = nesting(raw_data);
-        console.log(nested_data);
+//        console.log(nested_data);
         
-        var age_range = [10, 75];
+        var age_range = [10, 80];
         var sport_names = d3.nest()
             .key(function(d){
                 return adjusted_sport_names(d);
@@ -115,24 +116,42 @@ function start() {
         
         var scale_opacity = d3.scale.log()
             .domain([1, MAX_PEOPLE])
-            .range([0.2, 1]);
+            .range([0.6, 1]);
         var scale_rad_x = d3.scale.log()
             .domain([1, MAX_PEOPLE])
-            .range([1.5, 10]);
-        var scale_rad_y = d3.scale.log()
-            .domain([1, MAX_PEOPLE])
-            .range([1.3, 3]);
+            .range([2, 15]);
+        
+        var max = 0;
 
+        function count_medals(people) {
+            var medals = {Bronze: 0,
+                          Silver: 0,
+                          Gold: 0};
+            people.forEach(function (person) {
+                medals.Bronze += parseFloat(person.Bronze || 0);
+                medals.Silver += parseFloat(person.Silver || 0);
+                medals.Gold += parseFloat(person.Gold || 0);
+            });
+            var now = medals.Gold;
+            if (now > max) {
+                max = now;
+                console.log(people[0].Sport, now);
+            }
+            return medals.Bronze + medals.Silver + medals.Gold;
+        }
+        
         //gender
         var genders = age_groups.selectAll('circle')
             .data(function (d) {
                 return d.values;
             })
             .enter()
-            .append('rect')
-            .attr('x', function (d, i) {
+            .append('g');
+        
+        genders.append('rect')
+        .attr('x', function (d, i) {
                 if (d.key == 'F'){
-                    return -scale_rad_x(d.values.length) - 1;
+                    return -scale_rad_x(d.values.length) - 3;
                 }
                 else {
                     return 0;
@@ -140,52 +159,61 @@ function start() {
             })
             .attr('y', 0)
             .attr('width', function (d, i) {
+                count_medals(d.values);
                 return scale_rad_x(d.values.length);
             })
             .attr('height', function (d, i) {
-                return 7;
+                return 8;
             })
             .attr('fill', function (d, i) {
                 if (d.key == 'F'){
-                    return 'red';
+                    return '#d6e3a0';
                 }
                 else {
-                    return 'blue';
+                    return '#f9cc8e';
                 }
             })
+//            .style('stroke', function (d, i) {
+//                if (count_medals(d.values) > 0) {
+//                    return 'black';
+//                } else {
+//                    return 'none';
+//                }
+//            })
+//            .style('stroke-width', 2)
             .style('opacity', function (d, i) {
-                return scale_opacity(d.values.length);
+                return 1; //scale_opacity(d.values.length);
             });
             ;
             
         
         // red = female, blue = male           
-//        var people = genders.selectAll('circle')
-//            .data(function (d) {
-//                console.log(d.values.length);
-//                return d.values;
-//            })
-//            .enter()
-//            .append('circle')
-//            .attr('class', 'person')
-//            .attr('r', 3)
-//            .attr('cx', function (d, i) { 
-//                if (d.Sex == ('F')){
-//                    return 8;
-//                }
-//                else {
-//                    return 0;
-//                } 
-//            })
-//            .attr('cy', function (d, i) { return 0; })
-//            .style('fill', function (d, i) {
-//                if (d.Sex == ('F')){
-//                    return 'red';
-//                }
-//                else {
-//                    return 'blue';
-//                }
-//            })
+        var people = genders.selectAll('circle')
+            .data(function (d) {
+                return d.values;
+            })
+            .enter()
+            .append('circle')
+            .attr('class', 'person')
+            .attr('r', 1)
+            .attr('cx', function (d, i) { 
+                if (d.Sex == ('F')){
+                    return -5;
+                }
+                else {
+                    return 2;
+                } 
+            })
+            .style('opacity', '1')
+            .attr('cy', function (d, i) { return 3; })
+            .style('fill', function (d, i) {
+                if (d.Gold){
+                    return 'black';
+                }
+                else {
+                    return 'none';
+                }
+            })
     });
 };
 
