@@ -128,16 +128,11 @@ function start() {
                           Silver: 0,
                           Gold: 0};
             people.forEach(function (person) {
-                medals.Bronze += parseFloat(person.Bronze || 0);
-                medals.Silver += parseFloat(person.Silver || 0);
-                medals.Gold += parseFloat(person.Gold || 0);
+                medals.Bronze += parseFloat(person.Bronze) || 0;
+                medals.Silver += parseFloat(person.Silver) || 0;
+                medals.Gold += parseFloat(person.Gold) || 0;
             });
-            var now = medals.Gold;
-            if (now > max) {
-                max = now;
-                console.log(people[0].Sport, now);
-            }
-            return medals.Bronze + medals.Silver + medals.Gold;
+            return Math.ceil(medals.Gold);
         }
         
         //gender
@@ -159,7 +154,6 @@ function start() {
             })
             .attr('y', 0)
             .attr('width', function (d, i) {
-                count_medals(d.values);
                 return scale_rad_x(d.values.length);
             })
             .attr('height', function (d, i) {
@@ -186,34 +180,61 @@ function start() {
             });
             ;
             
-        
-        // red = female, blue = male           
-        var people = genders.selectAll('circle')
-            .data(function (d) {
-                return d.values;
-            })
-            .enter()
-            .append('circle')
-            .attr('class', 'person')
-            .attr('r', 1)
-            .attr('cx', function (d, i) { 
-                if (d.Sex == ('F')){
-                    return -5;
+        genders
+            .append('rect')
+            .attr('x', function (d, i) { 
+                if (d.key == ('F')){
+                    return -count_medals(d.values) - 3;
                 }
                 else {
-                    return 2;
+                    return 1;
                 } 
             })
-            .style('opacity', '1')
-            .attr('cy', function (d, i) { return 3; })
-            .style('fill', function (d, i) {
-                if (d.Gold){
-                    return 'black';
+            .attr('y', function (d, i) { return 1; })
+            .attr('width', function (d, i) {
+                var cnt = count_medals(d.values);
+                if (cnt > 0) {
+                    return cnt + 1;
+                } else {
+                    return 0;
                 }
-                else {
-                    return 'none';
-                }
+//                return scale_rad_x(count_medals(d.values));
             })
+            .attr('height', 2)
+            .style('fill', function (d, i) {
+                return "black";
+            });
+        
+        // red = female, blue = male           
+//        var people = genders.selectAll('circle')
+//            .data(function (d) {
+//                return d.values;
+//            })
+//            .enter()
+//            .append('rect')
+//            .attr('class', 'person')
+//            .attr('r', 1)
+//            .attr('x', function (d, i) { 
+//                if (d.Sex == ('F')){
+//                    return -6;
+//                }
+//                else {
+//                    return 1;
+//                } 
+//            })
+//            .attr('y', function (d, i) { return 1; })
+//            .attr('width', function (d, i) {
+//                return 3;
+//            })
+//            .attr('height', 2)
+//            .style('fill', function (d, i) {
+//                if (d.Gold){
+//                    return 'black';
+//                }
+//                else {
+//                    return 'none';
+//                }
+//            })
     });
 };
 
