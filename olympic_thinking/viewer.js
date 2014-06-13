@@ -14,7 +14,7 @@ function nesting (data){
         })
         .sortKeys(d3.ascending)
         .key(function(d) { 
-            return 10*Math.floor(d.Age/10); 
+            return d.Age; 
         })
         .sortKeys(d3.ascending)
         .key(function(d) { return d.Sex; })
@@ -27,8 +27,8 @@ function start() {
     
     var CHART_X = 50;
     var CHART_Y = 20;
-    var INNER_WIDTH = 800;
-    var INNER_HEIGHT = 300;
+    var INNER_WIDTH = 900;
+    var INNER_HEIGHT = 400;
     var AXIS_MARGIN = 10;
     
     var svg = d3.select('svg');
@@ -38,7 +38,7 @@ function start() {
         var nested_data = nesting(raw_data);
         console.log(nested_data);
         
-        var age_range = [10, 70];
+        var age_range = [10, 75];
         var sport_names = d3.nest()
             .key(function(d){
                 return adjusted_sport_names(d);
@@ -110,42 +110,82 @@ function start() {
                 return 'translate(0, ' + scale_y(d.key) + ')';
             });
         
+        
+        var MAX_PEOPLE = 111;
+        
+        var scale_opacity = d3.scale.log()
+            .domain([1, MAX_PEOPLE])
+            .range([0.2, 1]);
+        var scale_rad_x = d3.scale.log()
+            .domain([1, MAX_PEOPLE])
+            .range([1.5, 10]);
+        var scale_rad_y = d3.scale.log()
+            .domain([1, MAX_PEOPLE])
+            .range([1.3, 3]);
+
         //gender
-        var genders = age_groups.selectAll('g.gender')
+        var genders = age_groups.selectAll('circle')
             .data(function (d) {
                 return d.values;
             })
             .enter()
-            .append('g')
-            .attr('class', 'g.gender')
-            
-        // red = female, blue = male           
-        var people = genders.selectAll('circle')
-            .data(function (d) {
-                console.log(d.values.length);
-                return d.values;
-            })
-            .enter()
-            .append('circle')
-            .attr('class', 'person')
-            .attr('r', 1)
-            .attr('cx', function (d, i) { 
-                if (d.Sex == ('F')){
-                    return i+5;
+            .append('rect')
+            .attr('x', function (d, i) {
+                if (d.key == 'F'){
+                    return -scale_rad_x(d.values.length) - 1;
                 }
                 else {
-                    return i;
-                } 
+                    return 0;
+                }
             })
-            .attr('cy', function (d, i) { return i*2; })
-            .style('fill', function (d, i) {
-                if (d.Sex == ('F')){
+            .attr('y', 0)
+            .attr('width', function (d, i) {
+                return scale_rad_x(d.values.length);
+            })
+            .attr('height', function (d, i) {
+                return 7;
+            })
+            .attr('fill', function (d, i) {
+                if (d.key == 'F'){
                     return 'red';
                 }
                 else {
                     return 'blue';
                 }
             })
+            .style('opacity', function (d, i) {
+                return scale_opacity(d.values.length);
+            });
+            ;
+            
+        
+        // red = female, blue = male           
+//        var people = genders.selectAll('circle')
+//            .data(function (d) {
+//                console.log(d.values.length);
+//                return d.values;
+//            })
+//            .enter()
+//            .append('circle')
+//            .attr('class', 'person')
+//            .attr('r', 3)
+//            .attr('cx', function (d, i) { 
+//                if (d.Sex == ('F')){
+//                    return 8;
+//                }
+//                else {
+//                    return 0;
+//                } 
+//            })
+//            .attr('cy', function (d, i) { return 0; })
+//            .style('fill', function (d, i) {
+//                if (d.Sex == ('F')){
+//                    return 'red';
+//                }
+//                else {
+//                    return 'blue';
+//                }
+//            })
     });
 };
 
@@ -157,13 +197,17 @@ function start() {
             .append('g')
             .attr('class', 'g.gender')
             .attr('transform', function (d, i) {
-                var dx = (d.key == 'F') ? -10 : 10;
+                var dx = (d.key == 'F') ? -2 : 2;
                 return 'translate(' + dx + ', 0)';
             });
-                    
+
+        var max = 0;
         var people = genders.selectAll('circle.person')
             .data(function (d) {
-                console.log(d.values.length);
+                if (d.values.length > max) {
+                    max = d.values.length;
+                    console.log(max);
+                }
                 return d.values;
             })
             .enter()
@@ -171,7 +215,7 @@ function start() {
             .attr('class', 'person')
             .attr('r', 1)
             .attr('cx', 0)
-            .attr('cy', function (d, i) { return i * 2; });
+            .attr('cy', function (d, i) { return 0; });
     });
 };
 */
