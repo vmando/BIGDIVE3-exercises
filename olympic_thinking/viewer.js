@@ -95,8 +95,47 @@ function start() {
             .attr('transform', function (d, i) {
                 return 'translate(0, ' + scale_y(d.key) + ')';
             });
-
+        
+        //gender
         var genders = age_groups.selectAll('g.gender')
+            .data(function (d) {
+                return d.values;
+            })
+            .enter()
+            .append('g')
+            .attr('class', 'g.gender')
+            
+        // red = female, blue = male           
+        var people = genders.selectAll('circle')
+            .data(function (d) {
+                console.log(d.values.length);
+                return d.values;
+            })
+            .enter()
+            .append('circle')
+            .attr('class', 'person')
+            .attr('r', 1)
+            .attr('cx', function (d, i) { 
+                if (d.Sex == ('F')){
+                    return i+5;
+                }
+                else {
+                    return i;
+                } 
+            })
+            .attr('cy', function (d, i) { return i*2; })
+            .style('fill', function (d, i) {
+                if (d.Sex == ('F')){
+                    return 'red';
+                }
+                else {
+                    return 'blue';
+                }
+            })
+    });
+};
+
+        /*var genders = age_groups.selectAll('g.gender')
             .data(function (d) {
                 return d.values;
             })
@@ -121,6 +160,6 @@ function start() {
             .attr('cy', function (d, i) { return i * 2; });
     });
 };
-
+*/
 // Start the viewer after all the libs load.
 $(start);
