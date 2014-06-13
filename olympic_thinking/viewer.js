@@ -211,6 +211,65 @@ function start() {
             .style('fill', function (d, i) {
                 return "black";
             });
+            
+            
+        var legend = chart.append('g')
+            .attr('class','legend')
+            .attr('transform','translate(' + (INNER_WIDTH - 190) + ',0)')
+            .style('font-size','18px')
+        
+        WIDTH_RECT = 40
+        HEIGHT_RECT = 25
+        VSPACE = 10
+        
+        
+        legend.append('rect')
+            .attr('x', 20)
+            .attr('y',0)
+            .attr('width',170)
+            .attr('height',125)
+            .style('fill','white')
+            .style('stroke','black')
+        
+        legend.append('rect')
+            .attr('x', 30)
+            .attr('y', 10)
+            .attr('width', WIDTH_RECT)
+            .attr('height', HEIGHT_RECT)
+            .style('fill', COLOR_FEMALE)
+        
+        legend.append('text')
+            .attr('x', 80)
+            .attr('y', 29)
+            .text('Females \u2640')
+            .style('fill',COLOR_FEMALE)
+        
+        legend.append('rect')
+            .attr('x', 30)
+            .attr('y', 50)
+            .attr('width', WIDTH_RECT)
+            .attr('height', HEIGHT_RECT)
+            .style('fill',COLOR_MALE)
+        
+        legend.append('text')
+            .attr('x', 80)
+            .attr('y', 34 + HEIGHT_RECT + VSPACE)
+            .text('Males \u2642')
+            .style('fill',COLOR_MALE)
+        
+        legend.append('rect')
+            .attr('x', 30)
+            .attr('y', 90)
+            .attr('width', WIDTH_RECT)
+            .attr('height', HEIGHT_RECT)
+            .style('fill','black')
+        
+        legend.append('text')
+            .attr('x', 80)
+            .attr('y', 39 + 2*HEIGHT_RECT + 2*VSPACE)
+            .text('Gold medals')
+            .style('fill','black')
+
 
     });
 };
