@@ -39,6 +39,20 @@ function gold_medals(people) {
     return medals(people).Gold;
 }
 
+function add_reference_lines(chart, range_x, range_y, scale_x, scale_y) {
+    var i;
+    
+    for (i = range_y[0]; i <= range_y[1]; i++) {
+        if (i % 10 == 0) {
+            console.log(i, scale_x(range_x[0]), scale_x(range_x[1]), scale_y(i));
+            chart.append('line')
+                .attr('x1', scale_x(range_x[0])).attr('x2', scale_x(range_x[1]))
+                .attr('y1', scale_y(i)).attr('y2', scale_y(i))
+                .style('stroke', '#eee');
+        }
+    }
+}
+
 function start() {
     
     var CHART_X = 50;
@@ -55,12 +69,11 @@ function start() {
     d3.csv('olympics_2012.csv', function (raw_data) {
         var nested_data = nesting(raw_data);
         
+        var sport_names = nested_data.map(function (d) { return d.key });
+        console.log("NAMES", sport_names);
+        
         var age_range = [10, 80];
-        var sport_names = d3.nest()
-            .key(function(d){
-                return adjusted_sport_names(d);
-            })
-            .entries(raw_data);
+        var range_x = [0, sport_names.length];
         
         var chart = svg.append('g')
             .attr('class', 'chart')
@@ -69,7 +82,7 @@ function start() {
 
         // axis X
         var scale_x = d3.scale.linear()
-            .domain([0, sport_names.length - 1])
+            .domain(range_x)
             .range([0, INNER_WIDTH]);
         var axis_x = d3.svg.axis()
             .scale(scale_x)
@@ -87,10 +100,10 @@ function start() {
             .append('text')
             .attr('text-anchor', 'end')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i + 0.3) + ',20),rotate(-45)'
+                return 'translate(' + scale_x(i + 0.7) + ',20),rotate(-45)'
             })
             .attr('class', 'sport')
-            .text(function (d, i) { return d.key; })
+            .text(function (d, i) { return d; })
             .attr('y', 0);
         
         // axis Y
@@ -108,12 +121,15 @@ function start() {
             .attr('transform', 'translate(' + (-AXIS_MARGIN) + ',0)')
             .call(axis_y);
         
+        add_reference_lines(chart, range_x, age_range, scale_x, scale_y);
+        
+        // data layers
         var sports = chart.selectAll('g.cluster-column')
             .data(nested_data)
             .enter()
             .append('g').attr('class', 'cluster-column')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i) + ', 0)';
+                return 'translate(' + scale_x(i + 0.5) + ', 0)';
             });
         
         var age_groups = sports.selectAll('g.cluster')
@@ -139,7 +155,6 @@ function start() {
         
         var max = 0;
         
-        //gender
         var genders = age_groups.selectAll('circle')
             .data(function (d) {
                 return d.values;
