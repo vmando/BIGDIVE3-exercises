@@ -73,7 +73,7 @@ function start() {
         console.log("NAMES", sport_names);
         
         var age_range = [10, 80];
-        var range_x = [0, sport_names.length];
+        var range_x = [-0.7, sport_names.length - 0.3];
         
         var chart = svg.append('g')
             .attr('class', 'chart')
@@ -87,7 +87,7 @@ function start() {
         var axis_x = d3.svg.axis()
             .scale(scale_x)
             .orient('bottom')
-            .ticks(sport_names.length)
+            .tickValues(d3.range(sport_names.length))
             .tickSize(10)
             .tickFormat('');
         var axis_x_g = chart.append('g')
@@ -100,7 +100,7 @@ function start() {
             .append('text')
             .attr('text-anchor', 'end')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i + 0.7) + ',20),rotate(-45)'
+                return 'translate(' + scale_x(i + 0.2) + ',20),rotate(-45)'
             })
             .attr('class', 'sport')
             .text(function (d, i) { return d; })
@@ -129,7 +129,7 @@ function start() {
             .enter()
             .append('g').attr('class', 'cluster-column')
             .attr('transform', function (d, i) {
-                return 'translate(' + scale_x(i + 0.5) + ', 0)';
+                return 'translate(' + scale_x(i) + ', 0)';
             });
         
         var age_groups = sports.selectAll('g.cluster')
